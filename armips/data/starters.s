@@ -10,8 +10,8 @@
 // DSPRE.
 .macro STARTER_CHOICES
     .word SPECIES_CHIKORITA
-    .word SPECIES_CYNDAQUIL
-    .word SPECIES_TOTODILE
+    .word SPECIES_TORCHIC
+    .word SPECIES_SQUIRTLE
 .endmacro
 
 .open "base/arm9.bin", 0x02000000
