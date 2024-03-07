@@ -10666,10 +10666,12 @@ specialareas SPECIES_ZIGZAGOON, DEX_NIGHT
 
 
 routesandcities SPECIES_ZIGZAGOON, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_ZIGZAGOON, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -10757,14 +10759,17 @@ specialareas SPECIES_WURMPLE, DEX_NIGHT
 
 
 routesandcities SPECIES_WURMPLE, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_WURMPLE, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_WURMPLE, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -11936,14 +11941,17 @@ specialareas SPECIES_SKITTY, DEX_NIGHT
 
 
 routesandcities SPECIES_SKITTY, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_SKITTY, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_SKITTY, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15314,14 +15322,17 @@ routesandcities SPECIES_KRICKETUNE, DEX_SPECIAL
 
 
 specialareas SPECIES_SHINX, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 specialareas SPECIES_SHINX, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 specialareas SPECIES_SHINX, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 

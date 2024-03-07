@@ -122,46 +122,46 @@ superrodrate 0
 walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
 
 // morning encounter slots
+pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_PIDGEY
+pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WURMPLE
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_SENTRET
 pokemon SPECIES_SENTRET
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SKITTY
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WURMPLE
+pokemon SPECIES_SHINX
+pokemon SPECIES_WURMPLE
 pokemon SPECIES_SKITTY
 
 // day encounter slots
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_SENTRET
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_ZIGZAGOON
+pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
+pokemon SPECIES_WURMPLE
 pokemon SPECIES_SENTRET
 pokemon SPECIES_SKITTY
-pokemon SPECIES_SENTRET
+pokemon SPECIES_SHINX
+pokemon SPECIES_WURMPLE
 pokemon SPECIES_SKITTY
 
 // night encounter slots
 pokemon SPECIES_HOOTHOOT
-monwithform SPECIES_RATTATA, 1
+monwithform SPECIES_ZIGZAGOON, 1
 pokemon SPECIES_HOOTHOOT
-monwithform SPECIES_RATTATA, 1
+monwithform SPECIES_ZIGZAGOON, 1
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-monwithform SPECIES_RATTATA, 1
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
+pokemon SPECIES_WURMPLE
+monwithform SPECIES_ZIGZAGOON, 1
 pokemon SPECIES_SKITTY
-pokemon SPECIES_SENTRET
 pokemon SPECIES_SKITTY
+pokemon SPECIES_SHINX
+pokemon SPECIES_SHINX
+pokemon SPECIES_SHINX
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
