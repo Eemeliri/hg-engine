@@ -81,7 +81,7 @@ trainerdata 2, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_CYNDAQUIL
+        pokemon SPECIES_TORCHIC
         ballseal 0
     endparty
 
@@ -102,7 +102,7 @@ trainerdata 3, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_TOTODILE
+        pokemon SPECIES_SQUIRTLE
         ballseal 0
     endparty
 
@@ -122,29 +122,29 @@ trainerdata 4, "Wade"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 3
         pokemon SPECIES_CATERPIE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 3
+        pokemon SPECIES_WEEDLE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
         level 3
-        pokemon SPECIES_WEEDLE
+        pokemon SPECIES_SPINARAK
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 2
-        pokemon SPECIES_CATERPIE
+        level 3
+        pokemon SPECIES_WURMPLE
         ballseal 0
     endparty
 
@@ -262,7 +262,7 @@ trainerdata 8, "Joey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 4
+        level 5
         pokemon SPECIES_RATTATA
         ballseal 0
     endparty
@@ -1536,15 +1536,15 @@ trainerdata 47, "Mikey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 2
+        level 4
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 4
-        pokemon SPECIES_RATTATA
+        level 5
+        pokemon SPECIES_ZIGZAGOON
         ballseal 0
     endparty
 
@@ -7856,15 +7856,15 @@ trainerdata 249, "Don"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_SURSKIT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
+        level 4
+        pokemon SPECIES_SEEDOT
         ballseal 0
     endparty
 
@@ -8817,7 +8817,7 @@ trainerdata 266, "Silver"
         ivs 30
         abilityslot 0
         level 18
-        pokemon SPECIES_QUILAVA
+        pokemon SPECIES_COMBUSKEN
         ballseal 0
     endparty
 
@@ -8871,10 +8871,10 @@ trainerdata 267, "Silver"
         ivs 80
         abilityslot 0
         level 22
-        pokemon SPECIES_QUILAVA
-        move MOVE_FLAME_WHEEL
-        move MOVE_SMOKESCREEN
-        move MOVE_EMBER
+        pokemon SPECIES_COMBUSKEN
+        move MOVE_DOUBLE_KICK
+        move MOVE_AERIAL_ACE
+        move MOVE_FLAME_CHARGE
         move MOVE_QUICK_ATTACK
         ballseal 0
     endparty
@@ -8951,11 +8951,11 @@ trainerdata 268, "Silver"
         ivs 160
         abilityslot 0
         level 40
-        pokemon SPECIES_TYPHLOSION
-        move MOVE_LAVA_PLUME
-        move MOVE_SWIFT
+        pokemon SPECIES_BLAZIKEN
+        move MOVE_FIRE_PUNCH
+        move MOVE_SKY_UPPERCUT
         move MOVE_QUICK_ATTACK
-        move MOVE_FLAME_WHEEL
+        move MOVE_THUNDER_PUNCH
         ballseal 0
     endparty
 
@@ -8990,7 +8990,7 @@ trainerdata 269, "Silver"
         ivs 30
         abilityslot 0
         level 18
-        pokemon SPECIES_CROCONAW
+        pokemon SPECIES_WARTORTLE
         ballseal 0
     endparty
 
@@ -9044,10 +9044,10 @@ trainerdata 270, "Silver"
         ivs 80
         abilityslot 0
         level 22
-        pokemon SPECIES_CROCONAW
-        move MOVE_SCARY_FACE
+        pokemon SPECIES_WARTORTLE
+        move MOVE_RAPID_SPIN
         move MOVE_ICE_FANG
-        move MOVE_WATER_GUN
+        move MOVE_WATER_PULSE
         move MOVE_BITE
         ballseal 0
     endparty
@@ -9113,11 +9113,11 @@ trainerdata 271, "Silver"
         ivs 120
         abilityslot 0
         level 32
-        pokemon SPECIES_FERALIGATR
+        pokemon SPECIES_BLASTOISE
         move MOVE_ICE_FANG
-        move MOVE_WATER_GUN
-        move MOVE_CRUNCH
-        move MOVE_THRASH
+        move MOVE_WATER_PULSE
+        move MOVE_BODY_SLAM
+        move MOVE_RAIN_DANCE
         ballseal 0
     endparty
 
@@ -9193,11 +9193,11 @@ trainerdata 272, "Silver"
         ivs 160
         abilityslot 0
         level 40
-        pokemon SPECIES_FERALIGATR
-        move MOVE_WATERFALL
+        pokemon SPECIES_BLASTOISE
+        move MOVE_SURF
         move MOVE_ICE_FANG
-        move MOVE_CRUNCH
-        move MOVE_SLASH
+        move MOVE_WATER_PULSE
+        move MOVE_FLASH_CANNON
         ballseal 0
     endparty
 
@@ -9750,11 +9750,11 @@ trainerdata 286, "Silver"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_TYPHLOSION
-        move MOVE_FLAMETHROWER
-        move MOVE_QUICK_ATTACK
-        move MOVE_FLAME_WHEEL
-        move MOVE_SWIFT
+        pokemon SPECIES_BLAZIKEN
+        move MOVE_FLARE_BLITZ
+        move MOVE_SKY_UPPERCUT
+        move MOVE_EARTHQUAKE
+        move MOVE_THUNDER_PUNCH
         ballseal 0
     endparty
 
@@ -9830,11 +9830,11 @@ trainerdata 287, "Silver"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_FERALIGATR
-        move MOVE_WATERFALL
-        move MOVE_ICE_FANG
-        move MOVE_CRUNCH
-        move MOVE_SLASH
+        pokemon SPECIES_BLASTOISE
+        move MOVE_SURF
+        move MOVE_FLASH_CANNON
+        move MOVE_ICE_BEAM
+        move MOVE_SHELL_SMASH
         ballseal 0
     endparty
 
@@ -9967,12 +9967,12 @@ trainerdata 289, "Silver"
         // mon 4
         ivs 120
         abilityslot 0
-        level 34
-        pokemon SPECIES_QUILAVA
-        move MOVE_SMOKESCREEN
-        move MOVE_SWIFT
-        move MOVE_QUICK_ATTACK
-        move MOVE_FLAME_WHEEL
+        level 36
+        pokemon SPECIES_BLAZIKEN
+        move MOVE_BOUNCE
+        move MOVE_BLAZE_KICK
+        move MOVE_DOUBLE_KICK
+        move MOVE_BULK_UP
         ballseal 0
     endparty
 
@@ -15353,11 +15353,11 @@ trainerdata 460, "Wade"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_BUTTERFREE
-        move MOVE_BUG_BUZZ
-        move MOVE_TAILWIND
-        move MOVE_CAPTIVATE
-        move MOVE_SAFEGUARD
+        pokemon SPECIES_ARIADOS
+        move MOVE_PSYCHIC_FANGS
+        move MOVE_BUG_BITE
+        move MOVE_SWORDS_DANCE
+        move MOVE_POISON_JAB
         ballseal 0
 
         // mon 2
@@ -15368,16 +15368,16 @@ trainerdata 460, "Wade"
         move MOVE_BUG_BITE
         move MOVE_TWINEEDLE
         move MOVE_POISON_JAB
-        move MOVE_FOCUS_ENERGY
+        move MOVE_SWORDS_DANCE
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
         level 28
-        pokemon SPECIES_BUTTERFREE
-        move MOVE_BUG_BITE
-        move MOVE_GUST
+        pokemon SPECIES_BEAUTIFLY
+        move MOVE_QUIVER_DANCE
+        move MOVE_HURRICANE
         move MOVE_SLEEP_POWDER
         move MOVE_STUN_SPORE
         ballseal 0
@@ -15400,7 +15400,7 @@ trainerdata 461, "Wade"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_SPINARAK
         move MOVE_BUG_BITE
         move MOVE_STRING_SHOT
         move MOVE_NONE
@@ -15433,7 +15433,7 @@ trainerdata 461, "Wade"
         ivs 0
         abilityslot 0
         level 18
-        pokemon SPECIES_METAPOD
+        pokemon SPECIES_CASCOON
         move MOVE_BUG_BITE
         move MOVE_STRING_SHOT
         move MOVE_NONE
@@ -16488,11 +16488,12 @@ trainerdata 490, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_TYPHLOSION
-        move MOVE_ROLLOUT
-        move MOVE_FLAMETHROWER
-        move MOVE_WILL_O_WISP
-        move MOVE_SWIFT
+        pokemon SPECIES_BLAZIKEN
+        item ITEM_BLAZIKENITE
+        move MOVE_FLARE_BLITZ
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PROTECT
+        move MOVE_THUNDER_PUNCH
         ballseal 0
     endparty
 
@@ -16573,12 +16574,12 @@ trainerdata 491, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_FERALIGATR
-        item ITEM_NONE
-        move MOVE_CRUNCH
-        move MOVE_AQUA_TAIL
-        move MOVE_SLASH
-        move MOVE_ICE_FANG
+        pokemon SPECIES_BLASTOISE
+        item ITEM_WHITE_HERB
+        move MOVE_FLASH_CANNON
+        move MOVE_BLIZZARD
+        move MOVE_HYDRO_PUMP
+        move MOVE_SHELL_SMASH
         ballseal 0
     endparty
 
@@ -16725,7 +16726,7 @@ trainerdata 496, "Boy"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_CYNDAQUIL
+        pokemon SPECIES_TORCHIC
         ballseal 0
     endparty
 
@@ -16746,7 +16747,7 @@ trainerdata 497, "Boy"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_TOTODILE
+        pokemon SPECIES_SQUIRTLE
         ballseal 0
     endparty
 
@@ -17310,18 +17311,18 @@ trainerdata 512, "Wade"
         ivs 0
         abilityslot 0
         level 36
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_ARIADOS
         move MOVE_BUG_BITE
-        move MOVE_GUST
-        move MOVE_SUPERSONIC
-        move MOVE_WHIRLWIND
+        move MOVE_PSYCHIC
+        move MOVE_POISON_JAB
+        move MOVE_ACID
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 52
-        pokemon SPECIES_BUTTERFREE
+        pokemon SPECIES_BEAUTIFLY
         move MOVE_BUG_BUZZ
         move MOVE_STUN_SPORE
         move MOVE_CAPTIVATE
@@ -25784,12 +25785,12 @@ trainerdata 736, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_TYPHLOSION
-        item ITEM_NONE
-        move MOVE_ROLLOUT
-        move MOVE_FLAMETHROWER
-        move MOVE_WILL_O_WISP
-        move MOVE_SWIFT
+        pokemon SPECIES_BLAZIKEN
+        item ITEM_BLAZIKENITE
+        move MOVE_FLARE_BLITZ
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PROTECT
+        move MOVE_BRAVE_BIRD
         ballseal 0
 
         // mon 1
@@ -25834,12 +25835,12 @@ trainerdata 737, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_FERALIGATR
-        item ITEM_NONE
-        move MOVE_CRUNCH
-        move MOVE_AQUA_TAIL
-        move MOVE_SLASH
-        move MOVE_ICE_FANG
+        pokemon SPECIES_BLASTOISE
+        item ITEM_BLASTOISINITE
+        move MOVE_FLASH_CANNON
+        move MOVE_BLIZZARD
+        move MOVE_HYDRO_PUMP
+        move MOVE_SHELL_SMASH
         ballseal 0
 
         // mon 1
