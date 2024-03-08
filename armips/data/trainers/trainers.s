@@ -626,25 +626,36 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 50
         abilityslot 0
-        level 9
-        pokemon SPECIES_PIDGEY
+        level 10
+        pokemon SPECIES_NATU
         item ITEM_NONE
-        move MOVE_TACKLE
+        move MOVE_PECK
         move MOVE_SAND_ATTACK
-        move MOVE_NONE
+        move MOVE_LEER
+        move MOVE_CONFUSION
+        ballseal 0
+
+        ivs 50
+        abilityslot 0
+        level 11
+        pokemon SPECIES_GLIGAR
+        item ITEM_NONE
+        move MOVE_POISON_STING
+        move MOVE_MUD_SLAP
+        move MOVE_GUST
         move MOVE_NONE
         ballseal 0
 
-        // mon 1
+        // mon 3
         ivs 50
         abilityslot 0
         level 13
         pokemon SPECIES_PIDGEOTTO
-        item ITEM_NONE
+        item ITEM_ORAN_BERRY
         move MOVE_TACKLE
         move MOVE_ROOST
         move MOVE_GUST
-        move MOVE_NONE
+        move MOVE_QUICK_ATTACK
         ballseal 0
     endparty
 
@@ -905,15 +916,15 @@ trainerdata 29, "Rod"
         // mon 0
         ivs 30
         abilityslot 0
-        level 7
+        level 8
         pokemon SPECIES_PIDGEY
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
-        level 7
-        pokemon SPECIES_PIDGEY
+        level 9
+        pokemon SPECIES_DODUO
         ballseal 0
     endparty
 
@@ -1416,22 +1427,22 @@ trainerdata 43, "Chow"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_LOTAD
         ballseal 0
     endparty
 
@@ -1621,7 +1632,7 @@ trainerdata 50, "Abe"
         ivs 30
         abilityslot 0
         level 9
-        pokemon SPECIES_SPEAROW
+        pokemon SPECIES_NATU
         ballseal 0
     endparty
 
@@ -1641,21 +1652,21 @@ trainerdata 51, "Nico"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_SUNKERN
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
+        level 5
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -1676,22 +1687,22 @@ trainerdata 52, "Edmond"
         // mon 0
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_HOOTHOOT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_GASTLY
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 3
-        pokemon SPECIES_BELLSPROUT
+        level 5
+        pokemon SPECIES_TEDDIURSA
         ballseal 0
     endparty
 
@@ -1711,8 +1722,8 @@ trainerdata 53, "Jin"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
-        pokemon SPECIES_BELLSPROUT
+        level 7
+        monwithform SPECIES_RATTATA, 1
         ballseal 0
     endparty
 
@@ -1733,14 +1744,14 @@ trainerdata 54, "Troy"
         ivs 0
         abilityslot 0
         level 7
-        pokemon SPECIES_BELLSPROUT
+        pokemon SPECIES_POOCHYENA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
         level 7
-        pokemon SPECIES_HOOTHOOT
+        pokemon SPECIES_NATU
         ballseal 0
     endparty
 
@@ -1760,8 +1771,8 @@ trainerdata 55, "Neal"
         // mon 0
         ivs 0
         abilityslot 0
-        level 6
-        pokemon SPECIES_BELLSPROUT
+        level 7
+        pokemon SPECIES_MEDITITE
         ballseal 0
     endparty
 
@@ -9999,15 +10010,15 @@ trainerdata 290, "Li"
         // mon 1
         ivs 0
         abilityslot 0
-        level 7
-        pokemon SPECIES_BELLSPROUT
+        level 9
+        pokemon SPECIES_SPINARAK
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
         level 10
-        pokemon SPECIES_HOOTHOOT
+        pokemon SPECIES_MISDREAVUS
         ballseal 0
     endparty
 

@@ -4252,10 +4252,12 @@ routesandcities SPECIES_CLOYSTER, DEX_SPECIAL
 
 
 specialareas SPECIES_GASTLY, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GASTLY, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -8482,14 +8484,17 @@ routesandcities SPECIES_SLOWKING, DEX_SPECIAL
 
 
 specialareas SPECIES_MISDREAVUS, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MISDREAVUS, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MISDREAVUS, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
     dexendareadata
@@ -10623,14 +10628,17 @@ routesandcities SPECIES_SWAMPERT, DEX_SPECIAL
 
 
 specialareas SPECIES_POOCHYENA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_POOCHYENA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_POOCHYENA, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -12208,14 +12216,17 @@ routesandcities SPECIES_AGGRON, DEX_SPECIAL
 
 
 specialareas SPECIES_MEDITITE, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEDITITE, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEDITITE, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
