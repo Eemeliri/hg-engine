@@ -1414,7 +1414,7 @@ FLAG_UNK_830                                              equ 0x830
 FLAG_UNK_831                                              equ 0x831
 FLAG_UNK_832                                              equ 0x832
 FLAG_UNK_833                                              equ 0x833
-FLAG_UNK_834                                              equ 0x834
+FLAG_UNK_834                                              equ 0x834 // Free flags start here until 0x95F
 FLAG_UNK_835                                              equ 0x835
 FLAG_UNK_836                                              equ 0x836
 FLAG_UNK_837                                              equ 0x837

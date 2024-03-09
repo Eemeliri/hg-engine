@@ -613,7 +613,7 @@ trainerdata 19, "Mickey"
 trainerdata 20, "Falkner"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_M
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -635,6 +635,7 @@ trainerdata 20, "Falkner"
         move MOVE_CONFUSION
         ballseal 0
 
+        // mon 1
         ivs 50
         abilityslot 0
         level 11
@@ -646,12 +647,12 @@ trainerdata 20, "Falkner"
         move MOVE_NONE
         ballseal 0
 
-        // mon 3
+        // mon 2
         ivs 50
         abilityslot 0
         level 13
         pokemon SPECIES_PIDGEOTTO
-        item ITEM_ORAN_BERRY
+        item ITEM_NONE
         move MOVE_TACKLE
         move MOVE_ROOST
         move MOVE_GUST
