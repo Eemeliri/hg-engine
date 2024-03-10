@@ -251,8 +251,8 @@ movedata MOVE_CUT, "Cut"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 50
-    type TYPE_NORMAL
-    accuracy 95
+    type TYPE_STEEL
+    accuracy 100
     pp 30
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -314,9 +314,9 @@ movedata MOVE_WHIRLWIND, "Whirlwind"
 movedata MOVE_FLY, "Fly"
     battleeffect 155
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 100
     type TYPE_FLYING
-    accuracy 95
+    accuracy 100
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -4010,9 +4010,9 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect 261
     pss SPLIT_SPECIAL
-    basepower 35
+    basepower 45
     type TYPE_WATER
-    accuracy 85
+    accuracy 100
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -6907,8 +6907,8 @@ movedata MOVE_ROCK_CLIMB, "Rock Climb"
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 90
-    type TYPE_NORMAL
-    accuracy 85
+    type TYPE_ROCK
+    accuracy 100
     pp 20
     effectchance 20
     target MOVE_TARGET_SELECTED

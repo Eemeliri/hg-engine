@@ -157,9 +157,8 @@ levelup SPECIES_SQUIRTLE
     learnset MOVE_WATER_GUN, 7
     learnset MOVE_WITHDRAW, 9
     learnset MOVE_RAPID_SPIN, 13
-    learnset MOVE_BITE, 13
-    learnset MOVE_BUBBLE, 13
-    learnset MOVE_WATER_PULSE, 19
+    learnset MOVE_BITE, 15
+    learnset MOVE_WATER_PULSE, 18
     learnset MOVE_PROTECT, 19
     learnset MOVE_AQUA_TAIL, 25
     learnset MOVE_SHELL_SMASH, 27

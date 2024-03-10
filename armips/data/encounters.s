@@ -113,7 +113,7 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata   1   // Route 29
 
-walkrate 25
+walkrate 20
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
@@ -321,7 +321,7 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata   3   // Route 30
 
-walkrate 25
+walkrate 15
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
@@ -2199,48 +2199,48 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
+walklevels 11, 12, 11, 12, 13, 13, 11, 11, 13, 11, 13, 11
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
+pokemon SPECIES_WINGULL
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WINGULL
 pokemon SPECIES_DITTO
 
 // day encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_GRIMER
+pokemon SPECIES_GRIMER
+pokemon SPECIES_WINGULL
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WINGULL
 pokemon SPECIES_DITTO
 
 // night encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SNUBBULL
+monwithform SPECIES_GRIMER, 1
+monwithform SPECIES_GRIMER, 1
+pokemon SPECIES_WINGULL
+pokemon SPECIES_DODUO
+pokemon SPECIES_DODUO
 pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
+pokemon SPECIES_WINGULL
 pokemon SPECIES_DITTO
 
 // hoenn encounter slots

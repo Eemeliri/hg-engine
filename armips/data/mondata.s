@@ -4005,7 +4005,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
 mondata SPECIES_AIPOM, "Aipom"
     basestats 55, 70, 55, 85, 40, 55
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
+    catchrate 235
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -22658,7 +22658,7 @@ mondata SPECIES_MEGA_CHARIZARD_Y, "-----"
 
 mondata SPECIES_MEGA_BLASTOISE, "-----"
     basestats 79, 103, 120, 78, 135, 115
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 210
     evyields 0, 0, 0, 0, 0, 3
