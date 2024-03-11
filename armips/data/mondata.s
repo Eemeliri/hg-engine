@@ -6314,7 +6314,7 @@ mondata SPECIES_NOSEPASS, "Nosepass"
 
 mondata SPECIES_SKITTY, "Skitty"
     basestats 50, 45, 45, 50, 35, 35
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_FAIRY
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -6335,7 +6335,7 @@ mondata SPECIES_SKITTY, "Skitty"
 
 mondata SPECIES_DELCATTY, "Delcatty"
     basestats 85, 85, 80, 90, 85, 85
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_FAIRY
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 1, 0, 0

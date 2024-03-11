@@ -5438,7 +5438,7 @@ levelup SPECIES_STANTLER
     learnset MOVE_TAKE_DOWN, 21
     learnset MOVE_CONFUSE_RAY, 23
     learnset MOVE_CALM_MIND, 27
-    learnset MOVE_ROLE_PLAY, 33
+    learnset MOVE_PSYSHIELD_BASH, 33
     learnset MOVE_ZEN_HEADBUTT, 38
     learnset MOVE_JUMP_KICK, 43
     learnset MOVE_IMPRISON, 49
@@ -21107,19 +21107,78 @@ levelup SPECIES_TATSUGIRI
     terminatelearnset
 
 levelup SPECIES_ANNIHILAPE
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_COUNTER, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_FOCUS_ENERGY, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_FURY_SWIPES, 5
+    learnset MOVE_LOW_KICK, 8
+    learnset MOVE_SEISMIC_TOSS, 12
+    learnset MOVE_SWAGGER, 17
+    learnset MOVE_CROSS_CHOP, 22
+    learnset MOVE_ASSURANCE, 26
+    learnset MOVE_THRASH, 30
+    learnset MOVE_SHADOW_PUNCH, 35
+    learnset MOVE_CLOSE_COMBAT, 39
+    learnset MOVE_SCREECH, 44
+    learnset MOVE_STOMPING_TANTRUM, 48
+    learnset MOVE_OUTRAGE, 53
+    learnset MOVE_FINAL_GAMBIT, 57
     terminatelearnset
 
 levelup SPECIES_CLODSIRE
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_TOXIC_SPIKES, 4
+    learnset MOVE_MUD_SHOT, 8
+    learnset MOVE_POISON_TAIL, 12
+    learnset MOVE_SLAM, 16
+    learnset MOVE_YAWN, 21
+    learnset MOVE_POISON_JAB, 24
+    learnset MOVE_SLUDGE_WAVE, 30
+    learnset MOVE_MEGAHORN, 36
+    learnset MOVE_TOXIC, 40
+    learnset MOVE_EARTHQUAKE, 48
     terminatelearnset
 
 levelup SPECIES_FARIGIRAF
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_GUARD_SWAP, 1
+    learnset MOVE_POWER_SWAP, 1
     learnset MOVE_TACKLE, 1
+    learnset MOVE_CONFUSION, 5
+    learnset MOVE_ASSURANCE, 10
+    learnset MOVE_STOMP, 14
+    learnset MOVE_PSYBEAM, 19
+    learnset MOVE_AGILITY, 23
+    learnset MOVE_DOUBLE_HIT, 28
+    learnset MOVE_TWIN_BEAM, 32
+    learnset MOVE_CRUNCH, 37
+    learnset MOVE_BATON_PASS, 41
+    learnset MOVE_NASTY_PLOT, 46
+    learnset MOVE_PSYCHIC, 50
     terminatelearnset
 
 levelup SPECIES_DUDUNSPARCE
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_FLAIL, 1
+    learnset MOVE_MUD_SLAP, 4
+    learnset MOVE_ROLLOUT, 8
+    learnset MOVE_GLARE, 12
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_ANCIENT_POWER, 20
+    learnset MOVE_DRILL_RUN, 24
+    learnset MOVE_YAWN, 28
+    learnset MOVE_HYPER_DRILL, 32
+    learnset MOVE_ROOST, 36
+    learnset MOVE_DRAGON_RUSH, 40
+    learnset MOVE_COIL, 44
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_ENDEAVOR, 52
+    learnset MOVE_HURRICANE, 56
+    learnset MOVE_BOOMBURST, 62
     terminatelearnset
 
 levelup SPECIES_KINGAMBIT
@@ -26672,7 +26731,23 @@ levelup SPECIES_TATSUGIRI_STRETCHY
     terminatelearnset
 
 levelup SPECIES_DUDUNSPARCE_THREE_SEGMENT
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_FLAIL, 1
+    learnset MOVE_MUD_SLAP, 4
+    learnset MOVE_ROLLOUT, 8
+    learnset MOVE_GLARE, 12
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_ANCIENT_POWER, 20
+    learnset MOVE_DRILL_RUN, 24
+    learnset MOVE_YAWN, 28
+    learnset MOVE_HYPER_DRILL, 32
+    learnset MOVE_ROOST, 36
+    learnset MOVE_DRAGON_RUSH, 40
+    learnset MOVE_COIL, 44
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_ENDEAVOR, 52
+    learnset MOVE_HURRICANE, 56
+    learnset MOVE_BOOMBURST, 62
     terminatelearnset
 
 levelup SPECIES_GIMMIGHOUL_ROAMING
@@ -26684,7 +26759,21 @@ levelup SPECIES_TERAPAGOS_TERASTAL
     terminatelearnset
 
 levelup SPECIES_WOOPER_PALDEAN
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_MUD_SPORT, 5
+    learnset MOVE_MUD_SHOT, 8
+    learnset MOVE_SLAM, 15
+    learnset MOVE_RAIN_DANCE, 19
+    learnset MOVE_MUD_BOMB, 19
+    learnset MOVE_YAWN, 24
+    learnset MOVE_AQUA_TAIL, 24
+    learnset MOVE_MIST, 26
+    learnset MOVE_HAZE, 26
+    learnset MOVE_AMNESIA, 27
+    learnset MOVE_MUDDY_WATER, 36
+    learnset MOVE_TOXIC, 36
+    learnset MOVE_EARTHQUAKE, 36
     terminatelearnset
 
 levelup SPECIES_TAUROS_COMBAT
