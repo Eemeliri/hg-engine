@@ -187,7 +187,8 @@ levelup SPECIES_WARTORTLE
     learnset MOVE_SHELL_SMASH, 35
     learnset MOVE_IRON_DEFENSE, 40
     learnset MOVE_SKULL_BASH, 43
-    learnset MOVE_HYDRO_PUMP, 46
+    learnset MOVE_CRUNCH, 46
+    learnset MOVE_HYDRO_PUMP, 50
     terminatelearnset
 
 
@@ -211,6 +212,7 @@ levelup SPECIES_BLASTOISE
     learnset MOVE_RAIN_DANCE, 38
     learnset MOVE_IRON_DEFENSE, 44
     learnset MOVE_SKULL_BASH, 48
+    learnset MOVE_CRUNCH, 51
     learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 

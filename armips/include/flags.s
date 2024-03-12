@@ -1416,7 +1416,7 @@ FLAG_UNK_832                                              equ 0x832
 FLAG_UNK_833                                              equ 0x833
 FLAG_UNK_834                                              equ 0x834 // Free flags start here until 0x95F
 FLAG_UNK_835                                              equ 0x835 // 2101: Shiny Stone in Pokeathlon grounds
-FLAG_UNK_836                                              equ 0x836
+FLAG_UNK_836                                              equ 0x836 // 2102: Manectite in Union Cave
 FLAG_UNK_837                                              equ 0x837
 FLAG_UNK_838                                              equ 0x838
 FLAG_UNK_839                                              equ 0x839

@@ -3967,27 +3967,27 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13
+walklevels 19, 19, 19, 20, 19, 19, 20, 19, 20, 20, 20, 15
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
+monwithform SPECIES_FARFETCHD, 1
+monwithform SPECIES_FARFETCHD, 1
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_CYNDAQUIL
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -3995,21 +3995,21 @@ pokemon SPECIES_FARFETCHD
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_CYNDAQUIL
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_SEVIPER
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+monwithform SPECIES_FARFETCHD, 1
+monwithform SPECIES_FARFETCHD, 1
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_CYNDAQUIL
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -4071,16 +4071,16 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 17, 16, 17, 16, 16, 16, 16, 15, 15, 15, 15
+walklevels 19, 20, 19, 20, 19, 20, 19, 20, 18, 18, 18, 18
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
+monwithform SPECIES_FARFETCHD, 1
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
@@ -4088,10 +4088,10 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_FARFETCHD
@@ -4102,14 +4102,14 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
+pokemon SPECIES_MR_MIME
+pokemon SPECIES_TANGELA
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+monwithform SPECIES_FARFETCHD, 1
+monwithform SPECIES_FARFETCHD, 1
 pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 pokemon SPECIES_MILTANK
