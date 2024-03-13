@@ -12623,7 +12623,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EXP_SHARE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_EXP_SHARE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -37713,7 +37713,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_CAPSULE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 10000,
+    .price = 8500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -40573,7 +40573,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LINKING_CORD - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 8000,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

@@ -587,3 +587,42 @@ An item to be held by a Pokémon.\nThis single-use bulb boosts Sp. Atk\nif hit w
 An item to be held by a Pokémon.\nThe holder will float in the air until hit.\nOnce hit, this item will burst.
 A rare mushroom that gives off\na nice fragrance. It can be sold at\na high price to shops.
 A big nugget of pure gold that gives\noff a lustrous gleam. It can be sold at\na high price to shops.
+A band that increases the power of \nbinding moves when held.
+Castelia City specialty, soft-serve\nice cream. It heals all the \nstatus problems of a single Pokémon.
+An item to be held by a Pokémon.\nThis single-use battery boosts the Attack\nstat if damaged by an Electric attack.
+------
+------
+If the holder is hit by an attack,\nit will switch with another Pokémon in your party.
+A mysterious evolutionary lump.\nWhen held, it raises the Defense\nand Sp. Def of an unevolved Pokémon.
+A very light stone. It reduces\nthe weight of a Pokémon when held.
+------
+A mysterious scale that evolves\ncertain Pokémon. It shines in\nrainbow colors.
+A card with a mysterious power.\nWhen the holder is struck by a foe,\nthe attacker is removed from battle.
+Moves that would otherwise have\nno effect will land on the\nPokémon that holds it.
+If the holder of this item takes\ndamage, the attacker will also be\ndamaged upon contact.
+------
+A capsule that allows a Pokémon with\ntwo Abilities to switch between these\nAbilities when it is used.
+An item to be held by a Pokémon. This\noffensive vest raises Sp. Def but\nprevents the use of status moves.
+An item to be held by a Pokémon. It\nboosts Sp. Def if hit with a Water-type\nattack. It can only be used once.
+------
+A sachet filled with fragrant perfumes\nthat are just slightly too\noverwhelming.
+An item to be held by a Pokémon. These\ngoggles protect the holder from both\nweather-related damage and powder.
+------
+An item to be held by a Pokémon. It\nboosts Attack if hit with an Ice-type\nattack. It can only be used once.
+An item to be held by a Pokémon. Attack\nand Sp. Atk sharply increase if the\nholder is hit with a move it is weak to.
+Loved by a certain Pokémon.
+Using it makes wild Pokémon more likely\nto call for help. If held by a Pokémon,\nit boosts Speed when intimidated.
+------
+------
+A beautiful bottle cap that gives off a\nsilver gleam. Some people are happy to\nreceive one.
+A beautiful bottle cap that gives off a\ngolden gleam. Some people are happy to\nreceive one.
+An item to be held by a Pokémon. It\nboosts Defense on Electric Terrain. It\ncan only be used once.
+An item to be held by a Pokémon. It\nboosts Defense on Grassy Terrain. It\ncan only be used once.
+An item to be held by a Pokémon. It\nboosts Sp. Defense on Misty Terrain. It\ncan only be used once.
+An item to be held by a Pokémon. It\nboosts Sp. Defense on Psychic Terrain.\nIt can only be used once.
+A peculiar stone that can make certain\nspecies of Pokémon evolve. It has an\nunmistakable snowflake pattern.
+An item to be held by a Pokémon. These\npads protect the holder from effects\nof direct contact with foes.
+An item to be held by a Pokémon. It\nextends the duration of the terrain\ncaused by the holders move or Ability.
+A patch that allows a Pokémon with a\nregular Ability to have a rare Ability.
+A glassy black stone that produces a\nsharp cutting edge when split. It’s\nloved by a certain Pokémon.
+------
