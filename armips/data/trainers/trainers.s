@@ -316,10 +316,10 @@ trainerdata 10, "Amy & Mimi"
         ballseal 0
     endparty
 
-trainerdata 11, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_KIMONO_GIRL
-    nummons 3
+trainerdata 11, "Lily"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass CLASS_ACE_TRAINER_F
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -333,21 +333,72 @@ trainerdata 11, "Mickey"
         ivs 0
         abilityslot 0
         level 20
-        pokemon SPECIES_SKIPLOOM
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 20
-        pokemon SPECIES_VULPIX
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 18
-        pokemon SPECIES_SKIPLOOM
+        level 20
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -568,10 +619,10 @@ trainerdata 18, "Justin"
         ballseal 0
     endparty
 
-trainerdata 19, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_BIKER
-    nummons 3
+trainerdata 19, "Lily"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainerclass CLASS_ACE_TRAINER_F
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -584,22 +635,73 @@ trainerdata 19, "Mickey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_KOFFING
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_CHANSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
     endparty
 
@@ -1438,10 +1540,10 @@ trainerdata 39, "Eugene"
         ballseal 0
     endparty
 
-trainerdata 40, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 40, "Lily"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
-    nummons 1
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1454,8 +1556,73 @@ trainerdata 40, "Mickey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 20
-        pokemon SPECIES_GRIMER
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 60
+        pokemon SPECIES_BLISSEY
+        item ITEM_TOXIC_ORB
+        move MOVE_HEALING_WISH
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
         ballseal 0
     endparty
 
