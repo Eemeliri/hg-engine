@@ -304,15 +304,15 @@ trainerdata 10, "Amy & Mimi"
         // mon 0
         ivs 10
         abilityslot 32
-        level 10
-        pokemon SPECIES_SPINARAK
+        level 13
+        pokemon SPECIES_DUSTOX
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
-        level 10
-        pokemon SPECIES_LEDYBA
+        level 13
+        pokemon SPECIES_BEAUTIFLY
         ballseal 0
     endparty
 
@@ -771,7 +771,7 @@ trainerdata 21, "Bugsy"
         // mon 0
         ivs 80
         abilityslot 0
-        level 15
+        level 14
         pokemon SPECIES_BEAUTIFLY
         item ITEM_NONE
         move MOVE_POISON_STING
@@ -795,10 +795,10 @@ trainerdata 21, "Bugsy"
         // mon 2
         ivs 80
         abilityslot 0
-        level 16
+        level 15
         pokemon SPECIES_ILLUMISE
         item ITEM_NONE
-        move MOVE_STRUGGLE_BUG
+        move MOVE_U_TURN
         move MOVE_QUICK_ATTACK
         move MOVE_ENCORE
         move MOVE_INFESTATION
@@ -807,7 +807,7 @@ trainerdata 21, "Bugsy"
         // mon 3
         ivs 80
         abilityslot 32
-        level 17
+        level 16
         pokemon SPECIES_SCYTHER
         item ITEM_SITRUS_BERRY
         move MOVE_QUICK_ATTACK
@@ -2367,7 +2367,7 @@ trainerdata 67, "Benny"
         // mon 0
         ivs 10
         abilityslot 0
-        level 7
+        level 9
         pokemon SPECIES_SILCOON
         ballseal 0
 
@@ -2402,14 +2402,14 @@ trainerdata 68, "Al"
         // mon 0
         ivs 10
         abilityslot 0
-        level 14
+        level 13
         pokemon SPECIES_BEEDRILL
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
-        level 14
+        level 13
         pokemon SPECIES_BUTTERFREE
         ballseal 0
     endparty

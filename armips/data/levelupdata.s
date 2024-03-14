@@ -10765,6 +10765,9 @@ levelup SPECIES_TOGEKISS
     learnset MOVE_POUND, 1
     learnset MOVE_SWEET_KISS, 1
     learnset MOVE_LIFE_DEW, 1
+    learnset MOVE_DRAINING_KISS, 28
+    learnset MOVE_DOUBLE_EDGE, 38
+    learnset MOVE_MOONBLAST, 42
     terminatelearnset
 
 
@@ -10785,12 +10788,13 @@ levelup SPECIES_YANMEGA
     learnset MOVE_UPROAR, 27
     learnset MOVE_PURSUIT, 30
     learnset MOVE_ANCIENT_POWER, 33
-    learnset MOVE_FEINT, 38
-    learnset MOVE_SLASH, 43
-    learnset MOVE_SCREECH, 46
-    learnset MOVE_U_TURN, 49
-    learnset MOVE_AIR_SLASH, 54
-    learnset MOVE_BUG_BUZZ, 57
+    learnset MOVE_FEINT, 37
+    learnset MOVE_SLASH, 40
+    learnset MOVE_SCREECH, 44
+    learnset MOVE_U_TURN, 48
+    learnset MOVE_AIR_SLASH, 50
+    learnset MOVE_BUG_BUZZ, 53
+    learnset MOVE_DRACO_METEOR, 58
     terminatelearnset
 
 
@@ -10816,11 +10820,11 @@ levelup SPECIES_LEAFEON
     learnset MOVE_LEECH_SEED, 20
     learnset MOVE_MAGICAL_LEAF, 22
     learnset MOVE_SYNTHESIS, 31
-    learnset MOVE_GIGA_DRAIN, 33
+    learnset MOVE_LEAF_BLADE, 33
     learnset MOVE_SUNNY_DAY, 35
     learnset MOVE_SWORDS_DANCE, 37
-    learnset MOVE_LEAF_BLADE, 47
-    learnset MOVE_LAST_RESORT, 48
+    learnset MOVE_SEED_BOMB, 40
+    learnset MOVE_SOLAR_BLADE, 48
     terminatelearnset
 
 
@@ -10846,10 +10850,10 @@ levelup SPECIES_GLACEON
     learnset MOVE_ICE_FANG, 25
     learnset MOVE_BARRIER, 29
     learnset MOVE_HAIL, 35
-    learnset MOVE_MIRROR_COAT, 39
+    learnset MOVE_ICE_BEAM, 39
     learnset MOVE_FREEZE_DRY, 40
     learnset MOVE_BLIZZARD, 47
-    learnset MOVE_LAST_RESORT, 48
+    learnset MOVE_FREEZING_GLARE, 54
     terminatelearnset
 
 
