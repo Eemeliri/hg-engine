@@ -1012,7 +1012,7 @@ encounter SPECIES_QUAGSIRE, 10, 20
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 8, 14
-encounter SPECIES_MAWILE, 3, 6
+encounter SPECIES_MAWILE, 5, 10
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
@@ -2407,7 +2407,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
+walklevels 15, 15, 15, 15, 17, 16, 16, 16, 15, 19, 16, 20
 
 // morning encounter slots
 pokemon SPECIES_PINECO
@@ -3031,48 +3031,48 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 16, 16, 16, 16, 15, 14, 15, 14
+walklevels 16, 17, 16, 17, 16, 18, 17, 17, 18, 17, 18, 15
 
 // morning encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_DUSKULL
 pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_MAGMAR
 
 // day encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_DUSKULL
 pokemon SPECIES_MAGMAR
 pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
 
 // night encounter slots
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
+pokemon SPECIES_SLUGMA
 pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_DUSKULL
 pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_MAGMAR
 
 // hoenn encounter slots

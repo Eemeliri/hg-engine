@@ -2022,7 +2022,7 @@ levelup SPECIES_SHELLDER
 
 
 levelup SPECIES_CLOYSTER
-    learnset MOVE_ICICLE_SPEAR, 0
+    learnset MOVE_SPIKES, 0
     learnset MOVE_ICICLE_SPEAR, 1
     learnset MOVE_ICICLE_CRASH, 1
     learnset MOVE_TOXIC_SPIKES, 1
@@ -2030,20 +2030,19 @@ levelup SPECIES_CLOYSTER
     learnset MOVE_LEER, 1
     learnset MOVE_WHIRLPOOL, 1
     learnset MOVE_SUPERSONIC, 1
-    learnset MOVE_AURORA_BEAM, 1
-    learnset MOVE_PROTECT, 1
-    learnset MOVE_RAZOR_SHELL, 1
-    learnset MOVE_IRON_DEFENSE, 1
-    learnset MOVE_ICE_BEAM, 1
-    learnset MOVE_SHELL_SMASH, 1
-    learnset MOVE_HYDRO_PUMP, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_WATER_GUN, 1
-    learnset MOVE_WITHDRAW, 1
-    learnset MOVE_ICE_SHARD, 1
     learnset MOVE_SPIKE_CANNON, 13
-    learnset MOVE_SPIKES, 28
-    learnset MOVE_ICICLE_CRASH, 50
+    learnset MOVE_AURORA_BEAM, 20
+    learnset MOVE_PROTECT, 22
+    learnset MOVE_CLAMP, 25
+    learnset MOVE_WHIRLPOOL, 27
+    learnset MOVE_AURORA_BEAM, 30
+    learnset MOVE_RAZOR_SHELL, 32
+    learnset MOVE_IRON_DEFENSE, 42
+    learnset MOVE_BRINE, 44
+    learnset MOVE_ICE_BEAM, 45
+    learnset MOVE_SHELL_SMASH, 49
+    learnset MOVE_ICICLE_CRASH, 52
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
 
@@ -7054,12 +7053,14 @@ levelup SPECIES_MAWILE
     learnset MOVE_STOCKPILE, 27
     learnset MOVE_SWALLOW, 27
     learnset MOVE_SPIT_UP, 27
-    learnset MOVE_SUCKER_PUNCH, 27
-    learnset MOVE_IRON_DEFENSE, 28
+    learnset MOVE_SUCKER_PUNCH, 29
+    learnset MOVE_IRON_DEFENSE, 30
     learnset MOVE_CRUNCH, 28
-    learnset MOVE_IRON_HEAD, 40
-    learnset MOVE_TAUNT, 40
-    learnset MOVE_PLAY_ROUGH, 48
+    learnset MOVE_IRON_HEAD, 32
+    learnset MOVE_PLAY_ROUGH, 38
+    learnset MOVE_TAUNT, 42
+    learnset MOVE_ACCELEROCK, 45
+    learnset MOVE_PSYCHIC_FANGS, 52
     terminatelearnset
 
 
@@ -8255,9 +8256,9 @@ levelup SPECIES_SHUPPET
 
 
 levelup SPECIES_BANETTE
-    learnset MOVE_PHANTOM_FORCE, 1
+    learnset MOVE_PHANTOM_FORCE, 0
     learnset MOVE_KNOCK_OFF, 1
-    learnset MOVE_SCREECH, 1
+    learnset MOVE_SWORDS_DANCE, 1
     learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_SPITE, 1
     learnset MOVE_SCREECH, 4
@@ -8269,12 +8270,12 @@ levelup SPECIES_BANETTE
     learnset MOVE_HEX, 22
     learnset MOVE_CURSE, 26
     learnset MOVE_SHADOW_BALL, 30
-    learnset MOVE_EMBARGO, 34
-    learnset MOVE_SUCKER_PUNCH, 40
-    learnset MOVE_SNATCH, 46
+    learnset MOVE_SUCKER_PUNCH, 34
+    learnset MOVE_EMBARGO, 39
+    learnset MOVE_DOUBLE_EDGE, 46
     learnset MOVE_GRUDGE, 52
     learnset MOVE_TRICK, 58
-    learnset MOVE_PHANTOM_FORCE, 64
+    learnset MOVE_POLTERGEIST, 64
     terminatelearnset
 
 

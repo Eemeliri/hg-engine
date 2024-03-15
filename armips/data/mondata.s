@@ -23137,8 +23137,8 @@ mondata SPECIES_MEGA_ALTARIA, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_BANETTE, "-----"
-    basestats 64, 165, 75, 75, 93, 83
-    types TYPE_GHOST, TYPE_GHOST
+    basestats 64, 165, 75, 85, 93, 83
+    types TYPE_GHOST, TYPE_NORMAL
     catchrate 45
     baseexp 179
     evyields 0, 2, 0, 0, 0, 0
@@ -23148,7 +23148,7 @@ mondata SPECIES_MEGA_BANETTE, "-----"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_FRISK, ABILITY_FRISK //ABILITY_PRANKSTER, ABILITY_PRANKSTER
+    abilities ABILITY_PRANKSTER, ABILITY_PRANKSTER //ABILITY_PRANKSTER, ABILITY_PRANKSTER
     runchance 0
     colorflip 0, 0
 
