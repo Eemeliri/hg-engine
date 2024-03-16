@@ -7039,8 +7039,6 @@ levelup SPECIES_SABLEYE
 levelup SPECIES_MAWILE
     learnset MOVE_ASTONISH, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_PLAY_ROUGH, 1
-    learnset MOVE_IRON_HEAD, 1
     learnset MOVE_TAUNT, 1
     learnset MOVE_FAIRY_WIND, 1
     learnset MOVE_FAIRY_WIND, 4
@@ -8333,6 +8331,7 @@ levelup SPECIES_DUSCLOPS
 
 levelup SPECIES_TROPIUS
     learnset MOVE_LEAF_STORM, 1
+    learnset MOVE_DRAGON_DANCE, 1
     learnset MOVE_LEER, 1
     learnset MOVE_GUST, 1
     learnset MOVE_GROWTH, 1
@@ -8340,15 +8339,17 @@ levelup SPECIES_TROPIUS
     learnset MOVE_SWEET_SCENT, 6
     learnset MOVE_STOMP, 10
     learnset MOVE_MAGICAL_LEAF, 16
-    learnset MOVE_WHIRLWIND, 21
+    learnset MOVE_GIGA_DRAIN, 21
     learnset MOVE_LEAF_TORNADO, 26
-    learnset MOVE_NATURAL_GIFT, 30
+    learnset MOVE_DRAGON_BREATH, 30
     learnset MOVE_AIR_SLASH, 36
-    learnset MOVE_BODY_SLAM, 41
-    learnset MOVE_BESTOW, 46
+    learnset MOVE_BODY_SLAM, 40
+    learnset MOVE_DRAGON_PULSE, 44
+    learnset MOVE_HURRICANE, 47
     learnset MOVE_SYNTHESIS, 50
     learnset MOVE_SOLAR_BEAM, 56
     learnset MOVE_LEAF_STORM, 61
+    learnset MOVE_DRACO_METEOR, 66
     terminatelearnset
 
 
@@ -16594,6 +16595,7 @@ levelup SPECIES_SYLVEON
     learnset MOVE_DISARMING_VOICE, 0
     learnset MOVE_FAIRY_WIND, 0
     learnset MOVE_DISARMING_VOICE, 1
+    learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_COVET, 1
     learnset MOVE_BITE, 1
     learnset MOVE_COPYCAT, 1
@@ -16615,8 +16617,8 @@ levelup SPECIES_SYLVEON
     learnset MOVE_MISTY_TERRAIN, 32
     learnset MOVE_SKILL_SWAP, 33
     learnset MOVE_MOONBLAST, 43
-    learnset MOVE_PSYCH_UP, 45
-    learnset MOVE_LAST_RESORT, 48
+    learnset MOVE_HYPER_VOICE, 45
+    learnset MOVE_PSYSHOCK, 54
     terminatelearnset
 
 
