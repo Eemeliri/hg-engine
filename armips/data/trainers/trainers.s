@@ -1187,9 +1187,9 @@ trainerdata 31, "Morty"
 trainerdata 32, "Pryce"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_1
-    nummons 3
+    nummons 5
     item ITEM_HYPER_POTION
-    item ITEM_FULL_RESTORE
+    item ITEM_HYPER_POTION
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
@@ -1200,37 +1200,61 @@ trainerdata 32, "Pryce"
         // mon 0
         ivs 150
         abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
+        level 40
+        pokemon SPECIES_FROSLASS
         item ITEM_NONE
-        move MOVE_SNORE
         move MOVE_HAIL
-        move MOVE_ICY_WIND
-        move MOVE_REST
+        move MOVE_AURORA_BEAM
+        move MOVE_CONFUSE_RAY
+        move MOVE_SHADOW_BALL
         ballseal 0
 
         // mon 1
         ivs 150
         abilityslot 0
-        level 32
-        pokemon SPECIES_DEWGONG
+        level 41
+        monwithform SPECIES_NINETALES, 1
         item ITEM_NONE
-        move MOVE_SLEEP_TALK
-        move MOVE_ICE_SHARD
-        move MOVE_AURORA_BEAM
-        move MOVE_REST
+        move MOVE_LIGHT_SCREEN
+        move MOVE_ICE_BEAM
+        move MOVE_FREEZE_DRY
+        move MOVE_REFLECT
         ballseal 0
 
         // mon 2
         ivs 150
         abilityslot 32
-        level 34
+        level 42
         pokemon SPECIES_PILOSWINE
-        item ITEM_SITRUS_BERRY
-        move MOVE_HAIL
+        item ITEM_NONE
+        move MOVE_TAKE_DOWN
         move MOVE_ICE_FANG
         move MOVE_MUD_BOMB
         move MOVE_BLIZZARD
+        ballseal 0
+
+        // mon 3
+        ivs 150
+        abilityslot 32
+        level 42
+        pokemon SPECIES_WALREIN
+        item ITEM_NONE
+        move MOVE_SURF
+        move MOVE_AURORA_BEAM
+        move MOVE_REST
+        move MOVE_SNORE
+        ballseal 0
+
+        // mon 4
+        ivs 150
+        abilityslot 2
+        level 43
+        pokemon SPECIES_GLALIE
+        item ITEM_GLALITITE
+        move MOVE_HAIL
+        move MOVE_BLIZZARD
+        move MOVE_BODY_SLAM
+        move MOVE_CRUNCH
         ballseal 0
     endparty
 
@@ -1250,7 +1274,7 @@ trainerdata 33, "Jasmine"
         // mon 0
         ivs 150
         abilityslot 0
-        level 38
+        level 36
         pokemon SPECIES_MAGNETON
         item ITEM_NONE
         move MOVE_THUNDERBOLT
@@ -1261,8 +1285,8 @@ trainerdata 33, "Jasmine"
 
         // mon 1
         ivs 150
-        abilityslot 1
-        level 39
+        abilityslot 2
+        level 37
         pokemon SPECIES_MAWILE
         item ITEM_NONE
         move MOVE_IRON_HEAD
@@ -1273,8 +1297,8 @@ trainerdata 33, "Jasmine"
 
         // mon 2
         ivs 150
-        abilityslot 32
-        level 39
+        abilityslot 1
+        level 37
         pokemon SPECIES_SCIZOR
         item ITEM_SITRUS_BERRY
         move MOVE_U_TURN
@@ -1284,9 +1308,9 @@ trainerdata 33, "Jasmine"
         ballseal 0
 
         // mon 2
-        ivs 150
-        abilityslot 32
-        level 40
+        ivs 200
+        abilityslot 1
+        level 38
         pokemon SPECIES_STEELIX
         item ITEM_STEELIXITE
         move MOVE_ROCK_SLIDE
@@ -1312,7 +1336,7 @@ trainerdata 34, "Chuck"
         // mon 0
         ivs 150
         abilityslot 0
-        level 35
+        level 33
         pokemon SPECIES_HITMONTOP
         item ITEM_NONE
         move MOVE_FAKE_OUT
@@ -1324,7 +1348,7 @@ trainerdata 34, "Chuck"
         // mon 1
         ivs 150
         abilityslot 0
-        level 36
+        level 34
         pokemon SPECIES_POLIWRATH
         item ITEM_NONE
         move MOVE_HYPNOSIS
@@ -1336,7 +1360,7 @@ trainerdata 34, "Chuck"
         // mon 1
         ivs 150
         abilityslot 0
-        level 35
+        level 33
         pokemon SPECIES_BRELOOM
         item ITEM_NONE
         move MOVE_MACH_PUNCH
@@ -1348,7 +1372,7 @@ trainerdata 34, "Chuck"
         // mon 1
         ivs 150
         abilityslot 0
-        level 36
+        level 35
         pokemon SPECIES_ANNIHILAPE
         item ITEM_NONE
         move MOVE_DYNAMIC_PUNCH
@@ -1361,7 +1385,7 @@ trainerdata 34, "Chuck"
 trainerdata 35, "Clair"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_4
-    nummons 4
+    nummons 5
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -1374,49 +1398,61 @@ trainerdata 35, "Clair"
         // mon 0
         ivs 200
         abilityslot 0
-        level 38
-        pokemon SPECIES_GYARADOS
+        level 44
+        pokemon SPECIES_TROPIUS
         item ITEM_NONE
-        move MOVE_TWISTER
-        move MOVE_DRAGON_RAGE
-        move MOVE_BITE
         move MOVE_DRAGON_PULSE
+        move MOVE_HURRICANE
+        move MOVE_GIGA_DRAIN
+        move MOVE_LEAF_TORNADO
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 0
-        level 38
-        pokemon SPECIES_DRAGONAIR
+        level 45
+        monwithform SPECIES_EXEGGUTOR, 1
         item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_FIRE_BLAST
-        move MOVE_SLAM
-        move MOVE_DRAGON_PULSE
+        move MOVE_PSYCHIC
+        move MOVE_GIGA_DRAIN
+        move MOVE_CALM_MIND
+        move MOVE_BODY_SLAM
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 38
-        pokemon SPECIES_DRAGONAIR
+        level 45
+        pokemon SPECIES_FLYGON
         item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_AQUA_TAIL
-        move MOVE_SLAM
-        move MOVE_DRAGON_PULSE
+        move MOVE_EARTH_POWER
+        move MOVE_DRAGON_CLAW
+        move MOVE_BUG_BUZZ
+        move MOVE_U_TURN
         ballseal 0
 
         // mon 3
         ivs 200
-        abilityslot 32
-        level 41
+        abilityslot 0
+        level 45
         pokemon SPECIES_KINGDRA
-        item ITEM_SITRUS_BERRY
-        move MOVE_SMOKESCREEN
+        item ITEM_NONE
         move MOVE_HYDRO_PUMP
-        move MOVE_HYPER_BEAM
         move MOVE_DRAGON_PULSE
+        move MOVE_FOCUS_ENERGY
+        move MOVE_AQUA_JET
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 46
+        pokemon SPECIES_AMPHAROS
+        item ITEM_AMPHAROSITE
+        move MOVE_THUNDERBOLT
+        move MOVE_DRACO_METEOR
+        move MOVE_POWER_GEM
+        move MOVE_DAZZLING_GLEAM
         ballseal 0
     endparty
 
@@ -4142,7 +4178,7 @@ trainerdata 123, "Tully"
         // mon 0
         ivs 50
         abilityslot 0
-        level 41
+        level 37
         pokemon SPECIES_OVERQWIL
         ballseal 0
     endparty
@@ -4339,14 +4375,14 @@ trainerdata 129, "Shane"
         // mon 0
         ivs 50
         abilityslot 0
-        level 41
+        level 37
         pokemon SPECIES_NIDOKING
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 41
+        level 37
         pokemon SPECIES_NIDOQUEEN
         ballseal 0
     endparty
@@ -4465,21 +4501,21 @@ trainerdata 134, "Benjamin"
         // mon 0
         ivs 50
         abilityslot 0
-        level 41
+        level 37
         monwithform SPECIES_DIGLETT, 1
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
-        level 42
+        level 38
         pokemon SPECIES_ARMALDO
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 42
+        level 38
         pokemon SPECIES_LUNATONE
         ballseal 0
     endparty
@@ -6781,7 +6817,7 @@ trainerdata 212, "Terrell"
     endparty
 
 trainerdata 213, "Kent"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 2
     item ITEM_NONE
@@ -11273,8 +11309,8 @@ trainerdata 323, "Tully"
         // mon 0
         ivs 50
         abilityslot 0
-        level 33
-        pokemon SPECIES_QWILFISH
+        level 45
+        pokemon SPECIES_OVERQWIL
         ballseal 0
     endparty
 
@@ -11294,22 +11330,22 @@ trainerdata 324, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
+        level 49
+        pokemon SPECIES_GOLDUCK
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
+        level 50
+        pokemon SPECIES_SEAKING
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 50
         abilityslot 0
-        level 38
-        pokemon SPECIES_QWILFISH
+        level 51
+        pokemon SPECIES_OVERQWIL
         ballseal 0
     endparty
 
@@ -17044,9 +17080,9 @@ trainerdata 498, "Eusine"
 
     party 498
         // mon 0
-        ivs 150
+        ivs 50
         abilityslot 0
-        level 35
+        level 32
         pokemon SPECIES_HYPNO
         move MOVE_DREAM_EATER
         move MOVE_HYPNOSIS
@@ -17055,9 +17091,9 @@ trainerdata 498, "Eusine"
         ballseal 0
 
         // mon 1
-        ivs 150
+        ivs 50
         abilityslot 0
-        level 36
+        level 34
         pokemon SPECIES_CHARIZARD
         move MOVE_FLAME_BURST
         move MOVE_WING_ATTACK
@@ -17066,9 +17102,9 @@ trainerdata 498, "Eusine"
         ballseal 0
 
         // mon 2
-        ivs 150
+        ivs 50
         abilityslot 32
-        level 35
+        level 32
         monwithform SPECIES_ELECTRODE, 1
         move MOVE_THUNDERBOLT
         move MOVE_SELF_DESTRUCT
@@ -17077,9 +17113,9 @@ trainerdata 498, "Eusine"
         ballseal 0
 
         // mon 3
-        ivs 150
+        ivs 50
         abilityslot 32
-        level 36
+        level 32
         pokemon SPECIES_EXPLOUD
         move MOVE_HYPER_VOICE
         move MOVE_ICE_PUNCH
@@ -17783,7 +17819,7 @@ trainerdata 517, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
-        level 41
+        level 60
         pokemon SPECIES_SEAKING
         move MOVE_WATER_PULSE
         move MOVE_RAIN_DANCE
@@ -17794,7 +17830,7 @@ trainerdata 517, "Tully"
         // mon 1
         ivs 0
         abilityslot 0
-        level 50
+        level 61
         pokemon SPECIES_SEAKING
         move MOVE_WATER_PULSE
         move MOVE_RAIN_DANCE
@@ -17805,12 +17841,12 @@ trainerdata 517, "Tully"
         // mon 2
         ivs 0
         abilityslot 0
-        level 53
-        pokemon SPECIES_QWILFISH
+        level 62
+        pokemon SPECIES_OVERQWIL
         move MOVE_ROLLOUT
         move MOVE_SURF
-        move MOVE_AQUA_TAIL
-        move MOVE_MINIMIZE
+        move MOVE_SLUDGE_BOMB
+        move MOVE_PIN_MISSILE
         ballseal 0
     endparty
 
