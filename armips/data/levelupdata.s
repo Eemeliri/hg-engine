@@ -20695,6 +20695,7 @@ levelup SPECIES_WYRDEER
 
 
 levelup SPECIES_KLEAVOR
+    learnset MOVE_STONE_AXE, 0
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_WING_ATTACK, 1
     learnset MOVE_AGILITY, 1
@@ -20704,15 +20705,17 @@ levelup SPECIES_KLEAVOR
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_FALSE_SWIPE, 1
     learnset MOVE_METAL_CLAW, 12
-    learnset MOVE_DOUBLE_TEAM, 16
+    learnset MOVE_STEALTH_ROCK, 16
     learnset MOVE_DOUBLE_HIT, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_FOCUS_ENERGY, 28
-    learnset MOVE_IRON_DEFENSE, 32
+    learnset MOVE_IRON_DEFENSE, 30
+    learnset MOVE_STONE_AXE, 34
     learnset MOVE_IRON_HEAD, 36
     learnset MOVE_X_SCISSOR, 40
     learnset MOVE_LASER_FOCUS, 44
     learnset MOVE_SWORDS_DANCE, 48
+    learnset MOVE_CLOSE_COMBAT, 52
     terminatelearnset
 
 
