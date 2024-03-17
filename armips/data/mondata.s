@@ -7510,8 +7510,8 @@ mondata SPECIES_DUSCLOPS, "Dusclops"
 
 
 mondata SPECIES_TROPIUS, "Tropius"
-    basestats 99, 50, 83, 70, 105, 87
-    types TYPE_GRASS, TYPE_FLYING
+    basestats 99, 50, 83, 70, 105, 93
+    types TYPE_GRASS, TYPE_DRAGON
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
