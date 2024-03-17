@@ -1255,7 +1255,15 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        if ((move_no == MOVE_FREEZE_DRY) && (sp->battlemon[defence_client].type1 == TYPE_WATER))
+                        {
+                            damage = TypeCheckCalc(sp, attack_client, 20, damage, base_power, flag);
+                        }
+                        else
+                        {
+                            damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        }
+                        
                         if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
@@ -1267,7 +1275,15 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        if ((move_no == MOVE_FREEZE_DRY) && (sp->battlemon[defence_client].type2 == TYPE_WATER))
+                        {
+                            damage = TypeCheckCalc(sp, attack_client, 20, damage, base_power, flag);
+                        }
+                        else
+                        {
+                            damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        }
+                        
                         if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
