@@ -1418,7 +1418,7 @@ FLAG_UNK_834                                              equ 0x834 // Free flag
 FLAG_UNK_835                                              equ 0x835 // 2101: Shiny Stone in Pokeathlon grounds
 FLAG_UNK_836                                              equ 0x836 // 2102: Manectite in Union Cave
 FLAG_UNK_837                                              equ 0x837 // 2103: Hiker in Route 42 tunnel
-FLAG_UNK_838                                              equ 0x838
+FLAG_UNK_838                                              equ 0x838 // 2104: Cianwood city Black Augurite
 FLAG_UNK_839                                              equ 0x839
 FLAG_UNK_83A                                              equ 0x83A
 FLAG_UNK_83B                                              equ 0x83B
@@ -1868,8 +1868,8 @@ FLAG_UNK_9F2                                              equ 0x9F2
 FLAG_UNK_9F3                                              equ 0x9F3
 FLAG_UNK_9F4                                              equ 0x9F4
 FLAG_UNK_9F5                                              equ 0x9F5
-FLAG_UNK_9F6                                              equ 0x9F6
-FLAG_UNK_9F7                                              equ 0x9F7
+FLAG_UNK_9F6                                              equ 0x9F6 // More free flags start here, 2550
+FLAG_UNK_9F7                                              equ 0x9F7 // 2551: Ice Cave Articuno 
 FLAG_UNK_9F8                                              equ 0x9F8
 FLAG_UNK_9F9                                              equ 0x9F9
 FLAG_UNK_9FA                                              equ 0x9FA
