@@ -1870,7 +1870,7 @@ FLAG_UNK_9F4                                              equ 0x9F4
 FLAG_UNK_9F5                                              equ 0x9F5
 FLAG_UNK_9F6                                              equ 0x9F6 // More free flags start here, 2550
 FLAG_UNK_9F7                                              equ 0x9F7 // 2551: Ice Cave Articuno 
-FLAG_UNK_9F8                                              equ 0x9F8
+FLAG_UNK_9F8                                              equ 0x9F8 // 2552: Ice Cave Regice
 FLAG_UNK_9F9                                              equ 0x9F9
 FLAG_UNK_9FA                                              equ 0x9FA
 FLAG_UNK_9FB                                              equ 0x9FB

@@ -475,8 +475,8 @@ mondata SPECIES_SPEAROW, "Spearow"
 
 
 mondata SPECIES_FEAROW, "Fearow"
-    basestats 65, 90, 65, 100, 61, 61
-    types TYPE_NORMAL, TYPE_FLYING
+    basestats 65, 90, 65, 100, 85, 61
+    types TYPE_GROUND, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
