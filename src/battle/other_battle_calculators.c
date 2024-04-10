@@ -1032,11 +1032,11 @@ void DynamicSortClientExecutionOrder(void *bw, struct BattleStruct *sp) {
 
 const u8 CriticalRateTable[] =
 {
-    16,
-    8,
-    4,
-    3,
-    2,
+     24,
+     8,
+     2,
+     1, 
+     1
 };
 
 // calculates the critical hit multiplier
@@ -1095,7 +1095,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
         sp->battlemon[attacker].critical_hits++;
         if (sp->battlemon[attacker].critical_hits == 3)
         {
-            SET_MON_CRITICAL_HIT_EVOLUTION_BIT(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), sp->sel_mons_no[attacker]));
+            SET_MON_CRITICAL_HIT_EVOLUTION_BIT(Party_GetMonByIndex(BattleWorkPokePartyGet(bw, attacker), sp->sel_mons_no[attacker]));
         }
     }
 
