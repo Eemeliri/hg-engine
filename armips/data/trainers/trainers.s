@@ -4163,21 +4163,21 @@ trainerdata 124, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 40
+        level 41
         pokemon SPECIES_STARMIE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 40
+        level 41
         pokemon SPECIES_SEAKING
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 40
+        level 42
         pokemon SPECIES_WHISCASH
         ballseal 0
     endparty
@@ -4198,7 +4198,7 @@ trainerdata 125, "Edgar"
         // mon 0
         ivs 0
         abilityslot 0
-        level 40
+        level 41
         pokemon SPECIES_MANTINE
         move MOVE_DIVE
         move MOVE_AQUA_JET
@@ -4209,7 +4209,7 @@ trainerdata 125, "Edgar"
         // mon 1
         ivs 0
         abilityslot 32
-        level 40
+        level 42
         pokemon SPECIES_OCTILLERY
         move MOVE_LOCK_ON
         move MOVE_PSYBEAM
@@ -4561,21 +4561,21 @@ trainerdata 137, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
-        level 40
+        level 42
         pokemon SPECIES_PIDGEOT
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 40
+        level 42
         pokemon SPECIES_FEAROW
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 41
+        level 42
         pokemon SPECIES_NOCTOWL
         ballseal 0
     endparty
@@ -7684,14 +7684,14 @@ trainerdata 244, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 57
+        level 56
         pokemon SPECIES_GYARADOS
         item ITEM_WACAN_BERRY
         move MOVE_WATERFALL
         move MOVE_DRAGON_DANCE
         move MOVE_DRAGON_RUSH
         move MOVE_ICE_FANG
-        ability ABILITY_MOXIE
+        ability ABILITY_INTIMIDATE
         ball ITEM_ULTRA_BALL
         setivs 25, 25, 25, 25, 25, 25 // hp, atk, def, spd, spatk, spdef
         setevs 0, 252, 0, 252, 0, 0
@@ -7703,7 +7703,7 @@ trainerdata 244, "Lance"
         // mon 1
         ivs 250
         abilityslot 0
-        level 58
+        level 57
         pokemon SPECIES_KINGDRA
         item ITEM_SITRUS_BERRY
         move MOVE_DRAGON_PULSE
@@ -7722,7 +7722,7 @@ trainerdata 244, "Lance"
         // mon 2
         ivs 250
         abilityslot 0
-        level 59
+        level 58
         pokemon SPECIES_SALAMENCE
         item ITEM_NONE
         move MOVE_FLAMETHROWER
@@ -7741,7 +7741,7 @@ trainerdata 244, "Lance"
         // mon 3
         ivs 250
         abilityslot 32
-        level 60
+        level 59
         pokemon SPECIES_AERODACTYL
         item ITEM_NONE
         move MOVE_AERIAL_ACE
@@ -7760,7 +7760,7 @@ trainerdata 244, "Lance"
         // mon 4
         ivs 250
         abilityslot 0
-        level 61
+        level 60
         pokemon SPECIES_CHARIZARD
         item ITEM_CHARIZARDITE_X
         move MOVE_FLAMETHROWER
@@ -7779,7 +7779,7 @@ trainerdata 244, "Lance"
         // mon 5
         ivs 250
         abilityslot 0
-        level 60
+        level 59
         pokemon SPECIES_DRAGONITE
         item ITEM_SITRUS_BERRY
         move MOVE_FIRE_BLAST
@@ -7870,7 +7870,7 @@ trainerdata 245, "Will"
         ivs 250
         abilityslot 32
         level 53
-        monwithform SPECIES_SLOWKING, 1
+        pokemon SPECIES_SLOWKING
         item ITEM_LEFTOVERS
         move MOVE_SURF
         move MOVE_AMNESIA
@@ -13986,7 +13986,7 @@ trainerdata 405, "Phil"
         // mon 0
         ivs 0
         abilityslot 0
-        level 40
+        level 41
         pokemon SPECIES_XATU
         move MOVE_SHADOW_BALL
         move MOVE_NIGHT_SHADE
@@ -13997,7 +13997,7 @@ trainerdata 405, "Phil"
         // mon 1
         ivs 0
         abilityslot 0
-        level 40
+        level 42
         pokemon SPECIES_CLAYDOL
         move MOVE_EARTH_POWER
         move MOVE_PSYBEAM
@@ -14022,7 +14022,7 @@ trainerdata 406, "Zach"
         // mon 0
         ivs 0
         abilityslot 0
-        level 42
+        level 43
         pokemon SPECIES_RHYPERIOR
         ballseal 0
     endparty
@@ -14043,7 +14043,7 @@ trainerdata 407, "Allen"
         // mon 0
         ivs 50
         abilityslot 0
-        level 41
+        level 42
         pokemon SPECIES_CAMERUPT
         move MOVE_FLAME_BURST
         move MOVE_EARTH_POWER
@@ -14054,7 +14054,7 @@ trainerdata 407, "Allen"
         // mon 1
         ivs 50
         abilityslot 0
-        level 41
+        level 42
         pokemon SPECIES_PELIPPER
         move MOVE_HYDRO_PUMP
         move MOVE_WING_ATTACK
@@ -14079,7 +14079,7 @@ trainerdata 408, "Cybil"
         // mon 0
         ivs 50
         abilityslot 0
-        level 40
+        level 42
         pokemon SPECIES_SWAMPERT
         move MOVE_EARTHQUAKE
         move MOVE_MUD_BOMB
@@ -14090,7 +14090,7 @@ trainerdata 408, "Cybil"
         // mon 1
         ivs 50
         abilityslot 0
-        level 41
+        level 42
         pokemon SPECIES_VICTREEBEL
         move MOVE_GIGA_DRAIN
         move MOVE_STUN_SPORE
@@ -14463,8 +14463,8 @@ trainerdata 418, "Bruno"
         shinylock 0
         additionalflags 0
         ballseal 0
-        ballseal 0
 
+        // mon 4
         ivs 250
         abilityslot 32
         level 56
