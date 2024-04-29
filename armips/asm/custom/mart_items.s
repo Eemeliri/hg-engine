@@ -76,38 +76,40 @@ EIGHT_BADGES equ 6
 
 /** Special Mart Index - This is not in byte order
 const u16 *_0210FA3C[] = {
-    _020FBA54, 0
-    _020FBA78, 1
-    _020FBAB0, 2
-    _020FBBEA, 3
-    _020FBC1A, 4
-    _020FBBB4, 5
-    _020FBAFA, 6
-    _020FBC34, 7
-    _020FBACA, 8
-    _020FBA60, 9
-    _020FBA88, 10
-    _020FBAD4, 11
-    _020FBA80, 12
-    _020FBB84, 13
-    _020FBAC0, 14
-    _020FBA70, 15
-    _020FBA98, 16
-    _020FBA5A, 17
-    _020FBC02, 18
-    _020FBC4E, 19
-    _020FBC68, 20
-    _020FBA68, 21
-    _020FBBC6, 22 
-    _020FBB08, 23 
-    _020FBA90, 24 
-    _020FBAA0, 25
-    _020FBAA8, 26
-    _020FBB16, 27
-    _020FBAB8, 28
-    _020FBBD8, 29
+    _020FBA54, 0 ;Cherrygrove
+    _020FBA78, 1 ;Violet
+    _020FBAB0, 2 ;Azalea
+    _020FBBEA, 3 ;Goldenrod 2F-Bottom
+    _020FBC1A, 4 ;Goldenrod 2F-Top
+    _020FBBB4, 5 ;Goldenrod 3F
+    _020FBAFA, 6 ;Goldenrod 4F
+    _020FBC34, 7 ;Goldenrod 5F
+    _020FBACA, 8 ;Goldenrod Tunnel Herb Shop
+    _020FBA60, 9 ;Ecruteak
+    _020FBA88, 10 ;Olivine
+    _020FBAD4, 11 ;Cianwood Pharmacy
+    _020FBA80, 12 ;Blackthorn City
+    _020FBB84, 13 ;Unknown
+    _020FBAC0, 14 ;Vermilion City
+    _020FBA70, 15 ;Saffron City
+    _020FBA98, 16 ;Lavender Town
+    _020FBA5A, 17 ;Cerulean City
+    _020FBC02, 18 ;Celadon 2F-Left
+    _020FBC4E, 19 ;Celadon 2F-Right
+    _020FBC68, 20 ;Celadon 3F
+    _020FBA68, 21 ;Celadon 4F
+    _020FBBC6, 22 ;Celadon 5F 1
+    _020FBB08, 23 ;Celadon 5F 2
+    _020FBA90, 24 ;Fuchsia City
+    _020FBAA0, 25 ;Pewter City
+    _020FBAA8, 26 ;Viridian City
+    _020FBB16, 27 ;Unknown
+    _020FBAB8, 28 ;Mahogany Town Before Team Rocket
+    _020FBBD8, 29 ;Unknown
 };
 */
+
+/* Johto */
 
 /* const u16 _020FBA54[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, 0xFFFF}; */
 /* Cherrygrove City 2nd Clerk -> Violet City 2nd Clerk */
@@ -119,7 +121,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA60[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Ecruteak City 2nd Clerk -> Safari Zone Top Stall */
+/* Cherrygrove City Page 2 & Ecruteak City */
 
 .org 0x020FBA60
 .halfword ITEM_BLACK_BELT
@@ -127,11 +129,8 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_FOCUS_SASH
 .halfword 0xFFFF
 
-/* const u16 _020FBA68[] = {ITEM_AIR_MAIL, ITEM_TUNNEL_MAIL, ITEM_BLOOM_MAIL, 0xFFFF}; */
-/* const u16 _020FBA70[] = {ITEM_AIR_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
-
 /* const u16 _020FBA78[] = {ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Violet City -> Goldenrod Flower Shop */
+/* Violet City */
 .org 0x020FBA78
 .halfword ITEM_POWER_HERB
 .halfword ITEM_MENTAL_HERB
@@ -139,16 +138,85 @@ const u16 *_0210FA3C[] = {
 .halfword 0xFFFF
 
 /* const u16 _020FBA80[] = {ITEM_AIR_MAIL, ITEM_NET_BALL, ITEM_DUSK_BALL, 0xFFFF}; */
+/* Blackthorn City */
+.org 0x020FBA80
+.halfword ITEM_AIR_MAIL
+.halfword ITEM_NET_BALL
+.halfword ITEM_DUSK_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBA88[] = {ITEM_HEART_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
+.org 0x020FBA88
+.halfword ITEM_QUICK_BALL
+.halfword ITEM_HEAL_BALL
+.halfword ITEM_NET_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBA90[] = {ITEM_STEEL_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
+/* Fuchsia City */
+.org 0x020FBA90
+.halfword ITEM_STEEL_MAIL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBA98[] = {ITEM_SNOW_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
+/* Lavender Town */
+.org 0x020FBA98
+.halfword ITEM_SNOW_MAIL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBAA0[] = {ITEM_STEEL_MAIL, ITEM_NEST_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
+/* Pewter City */
+.org 0x020FBAA0
+.halfword ITEM_STEEL_MAIL
+.halfword ITEM_NEST_BALL
+.halfword ITEM_QUICK_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBAA8[] = {ITEM_STEEL_MAIL, ITEM_NET_BALL, ITEM_HEAL_BALL, 0xFFFF}; */
-/* const u16 _020FBAB0[] = {ITEM_BLOOM_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
+/* Viridian City */
+.org 0x020FBAA8
+.halfword ITEM_STEEL_MAIL
+.halfword ITEM_NET_BALL
+.halfword ITEM_HEAL_BALL
+.halfword 0xFFFF
+
+/* const u16 _020FBAB0[] = {ITEM_THUNDER_STONE, ITEM_WATER_STONE, ITEM_FIRE_STONE, 0xFFFF}; */
+/* Azalea Town */
+.org 0x020FBAB0
+.halfword ITEM_THUNDER_STONE
+.halfword ITEM_WATER_STONE
+.halfword ITEM_FIRE_STONE
+.halfword 0xFFFF
+
 /* const u16 _020FBAB8[] = {ITEM_TINYMUSHROOM, ITEM_POKE_BALL, ITEM_POTION, 0xFFFF}; */
+
 /* const u16 _020FBAC0[] = {ITEM_AIR_MAIL, ITEM_NEST_BALL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
+/* Vermilion City */
+.org 0x020FBAC0
+.halfword ITEM_AIR_MAIL
+.halfword ITEM_NEST_BALL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword 0xFFFF
+
 /* const u16 _020FBACA[] = {ITEM_HEAL_POWDER, ITEM_ENERGYPOWDER, ITEM_ENERGY_ROOT, ITEM_REVIVAL_HERB, 0xFFFF}; */
+
+
 /* const u16 _020FBAD4[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL, ITEM_REVIVE, 0xFFFF}; */
+/* Cianwood City Pharmacy */
+.org 0x020FBAD4
+.halfword ITEM_POTION
+.halfword ITEM_SUPER_POTION
+.halfword ITEM_HYPER_POTION
+.halfword ITEM_FULL_HEAL
+.halfword ITEM_REVIVE
+.halfword 0xFFFF
+
+
 /* const u16 _020FBAFA[] = {ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS, ITEM_HP_UP, 0xFFFF}; */
 
 /* const u16 _020FBB08[] = {ITEM_PROTEIN, ITEM_IRON, ITEM_CALCIUM, ITEM_ZINC, ITEM_CARBOS, ITEM_HP_UP, 0xFFFF}; */
@@ -164,7 +232,7 @@ const u16 *_0210FA3C[] = {
 .halfword 0xFFFF
 
 .org 0x020FBB08
-/* Celadon Dept Store 5F -> Goldenrod/Celadon Dept Store 2F (reduced inventory) */
+/* Goldenrod 4F Part 2 */
 .halfword ITEM_POTION
 .halfword ITEM_SUPER_POTION
 .halfword ITEM_HYPER_POTION
@@ -176,12 +244,19 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBB16[] = {ITEM_POKE_DOLL, ITEM_FRESH_WATER, ITEM_SODA_POP, ITEM_LEMONADE, ITEM_REPEL, ITEM_HEART_MAIL, 0xFFFF}; */
 /* const u16 _020FBB84[] = {ITEM_ULTRA_BALL, ITEM_MAX_REPEL, ITEM_HYPER_POTION, ITEM_MAX_POTION, ITEM_FULL_RESTORE, ITEM_REVIVE, ITEM_FULL_HEAL, 0xFFFF}; */
 
-/* const u16 _020FBBB4[] = {ITEM_X_SPEED, ITEM_X_ATTACK, ITEM_X_DEFENSE, ITEM_GUARD_SPEC_, ITEM_DIRE_HIT, ITEM_X_ACCURACY, ITEM_X_SPECIAL, ITEM_X_SP__DEF, 0xFFFF}; */
-/* const u16 _020FBBC6[] = {ITEM_X_SPEED, ITEM_X_ATTACK, ITEM_X_DEFENSE, ITEM_GUARD_SPEC_, ITEM_DIRE_HIT, ITEM_X_ACCURACY, ITEM_X_SPECIAL, ITEM_X_SP__DEF, 0xFFFF}; */
+/* const u16 _020FBA70[] = {ITEM_AIR_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
+/* Saffron City */
+.org 0x020FBA70
+.halfword ITEM_AIR_MAIL
+.halfword ITEM_DUSK_BALL
+.halfword ITEM_QUICK_BALL
+.halfword 0xFFFF
 
+/* const u16 _020FBBC6[] = {ITEM_X_SPEED, ITEM_X_ATTACK, ITEM_X_DEFENSE, ITEM_GUARD_SPEC_, ITEM_DIRE_HIT, ITEM_X_ACCURACY, ITEM_X_SPECIAL, ITEM_X_SP__DEF, 0xFFFF}; */
+/* const u16 _020FBBB4[] = {ITEM_X_SPEED, ITEM_X_ATTACK, ITEM_X_DEFENSE, ITEM_GUARD_SPEC_, ITEM_DIRE_HIT, ITEM_X_ACCURACY, ITEM_X_SPECIAL, ITEM_X_SP__DEF, 0xFFFF}; */
 .org 0x020FBBB4
 /* This spills over into _020FBBC6 */
-/* Goldenrod Dept Store 3F & Celadon Dept Store 5F -> Chansey Supply 1 */ 
+/* Goldenrod Dept Store 3F */ 
 .halfword ITEM_HP_UP
 .halfword ITEM_PROTEIN
 .halfword ITEM_IRON
@@ -219,7 +294,7 @@ const u16 *_0210FA3C[] = {
 
 .org 0x020FBBEA
 /* This spills over into _020FBC02 */
-/* Goldenrod Dept Store 2F & Celadon Dept Store 2F -> Chansey Supply 2 */
+/* Goldenrod Dept Store 2F - Bottom */
 .halfword ITEM_PP_UP
 .halfword ITEM_ABILITY_CAPSULE
 .halfword ITEM_LONELY_MINT
@@ -267,7 +342,7 @@ const u16 *_0210FA3C[] = {
 .halfword 0xFFFF
 
 .org 0x020FBC34
-/* Goldenrod Dept Store 5F -> Goldenrod Dept Store 5F still (also Celadon 3F) */
+/* Goldenrod Dept Store 5F */
 .halfword ITEM_TM70
 .halfword ITEM_TM17
 .halfword ITEM_TM54
@@ -285,7 +360,7 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC4E[] = {ITEM_POKE_BALL, ITEM_GREAT_BALL, ITEM_ULTRA_BALL, ITEM_ESCAPE_ROPE, ITEM_POKE_DOLL, ITEM_REPEL, ITEM_SUPER_REPEL, ITEM_MAX_REPEL, ITEM_GRASS_MAIL, ITEM_FLAME_MAIL, ITEM_BUBBLE_MAIL, ITEM_SPACE_MAIL, 0xFFFF}; */
 
 .org 0x020FBC4E
-/* Celadon Dept Store 2F -> Safari Zone Gate */
+/* Celadon Dept Store 2F-Right -> Safari Zone Gate */
 .halfword ITEM_FULL_INCENSE
 .halfword ITEM_LAX_INCENSE
 .halfword ITEM_LUCK_INCENSE
