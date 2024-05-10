@@ -1872,14 +1872,14 @@ FLAG_UNK_9F6                                              equ 0x9F6 // More free
 FLAG_UNK_9F7                                              equ 0x9F7 // 2551: Ice Cave Articuno 
 FLAG_UNK_9F8                                              equ 0x9F8 // 2552: Ice Cave Regice
 FLAG_UNK_9F9                                              equ 0x9F9 // 2553: Victory Road Moltres
-FLAG_UNK_9FA                                              equ 0x9FA // 2554: Dark Cave Zapdos
+FLAG_UNK_9FA                                              equ 0x9FA // 2554: ?
 FLAG_UNK_9FB                                              equ 0x9FB // 2555: Mt. Mortar Registeel
 FLAG_UNK_9FC                                              equ 0x9FC // 2556: Route 47 Regirock
 FLAG_UNK_9FD                                              equ 0x9FD // 2557: Jirachi
 FLAG_UNK_9FE                                              equ 0x9FE // 2558: Deoxys
 FLAG_UNK_9FF                                              equ 0x9FF // 2559: Mew
 FLAG_UNK_A00                                              equ 0xA00 // 2560: Eviolite in Ecruteak Theater
-FLAG_UNK_A01                                              equ 0xA01
+FLAG_UNK_A01                                              equ 0xA01 // 2561: Zapdos in Olivine Lighthouse
 FLAG_UNK_A02                                              equ 0xA02
 FLAG_UNK_A03                                              equ 0xA03
 FLAG_UNK_A04                                              equ 0xA04

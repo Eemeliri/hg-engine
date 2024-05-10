@@ -140,15 +140,15 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA80[] = {ITEM_AIR_MAIL, ITEM_NET_BALL, ITEM_DUSK_BALL, 0xFFFF}; */
 /* Blackthorn City */
 .org 0x020FBA80
-.halfword ITEM_AIR_MAIL
-.halfword ITEM_NET_BALL
+.halfword ITEM_RAZOR_CLAW
+.halfword ITEM_RAZOR_FANG
 .halfword ITEM_DUSK_BALL
 .halfword 0xFFFF
 
 /* const u16 _020FBA88[] = {ITEM_HEART_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
 .org 0x020FBA88
 .halfword ITEM_QUICK_BALL
-.halfword ITEM_HEAL_BALL
+.halfword ITEM_PRISM_SCALE
 .halfword ITEM_NET_BALL
 .halfword 0xFFFF
 
@@ -209,11 +209,11 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBAD4[] = {ITEM_POTION, ITEM_SUPER_POTION, ITEM_HYPER_POTION, ITEM_FULL_HEAL, ITEM_REVIVE, 0xFFFF}; */
 /* Cianwood City Pharmacy */
 .org 0x020FBAD4
-.halfword ITEM_POTION
 .halfword ITEM_SUPER_POTION
 .halfword ITEM_HYPER_POTION
 .halfword ITEM_FULL_HEAL
 .halfword ITEM_REVIVE
+.halfword ITEM_LINKING_CORD
 .halfword 0xFFFF
 
 
