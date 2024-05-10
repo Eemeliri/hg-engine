@@ -75,13 +75,18 @@ BOOL btl_scr_cmd_F3_canapplyknockoffdamageboost(void *bw, struct BattleStruct *s
 BOOL btl_scr_cmd_F4_isparentalbondactive(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F5_changepermanentbg(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F8_clearbindcounter(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_RapidSpin(void *bw, struct BattleStruct *sp);
 BOOL CanKnockOffApply(struct BattleStruct *sp);
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
 u32 DealWithCriticalCaptureShakes(struct EXP_CALCULATOR *expcalc, u32 shakes);
 u32 LoadCaptureSuccessSPA(u32 id);
 u32 LoadCaptureSuccessSPAStarEmitter(u32 id);
 u32 LoadCaptureSuccessSPANumEmitters(u32 id);
-
 
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
 const u8 *BattleScrCmdNames[] =
@@ -332,7 +337,9 @@ const u8 *BattleScrCmdNames[] =
     "canapplyknockoffdamageboost",
     "isparentalbondactive",
     "changepermanentbg",
-    "btl_scr_cmd_F6_changeexecutionorderpriority",
+    "changeexecutionorderpriority",
+    "setbindingcounter",
+    "clearbindcounter",
 };
 
 u32 cmdAddress = 0;
@@ -363,6 +370,8 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF4 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F4_isparentalbondactive,
     [0xF5 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F5_changepermanentbg,
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_changeexecutionorderpriority,
+    [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
+    [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -1110,6 +1119,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_CHATTER: // confuse chance based on volume of cry
             case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
             case MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT:
+            case MOVE_EFFECT_HIT_AND_PREVENT_HEALING: // Psychic Noise
                 effect = MOVE_EFFECT_HIT;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -2390,7 +2400,7 @@ BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *s
 
     if (sp->terrainOverlay.type == ELECTRIC_TERRAIN) {
         for (int i = 0; i < client_set_max; i++) {
-            client_no = sp->turn_order[i];
+            client_no = sp->turnOrder[i];
             if (IsClientGrounded(sp, client_no)) {
                 sp->battlemon[client_no].effect_of_moves &= ~(MOVE_EFFECT_YAWN_COUNTER);
             }
@@ -2592,7 +2602,7 @@ BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *
     address = read_battle_script_param(sp);
 
     for (clientPosition = 0; clientPosition < maxBattlers; clientPosition++) {
-        if (sp->client_agi_work[clientPosition] == client_no) {
+        if (sp->executionOrder[clientPosition] == client_no) {
             break;
         }
     }
@@ -2619,6 +2629,198 @@ BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *
             GF_ASSERT(forceExecutionOrder > EXECUTION_ORDER_AFTER_YOU);
             break;
     }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to calculate and set the binding turns for a binding move that was just used
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp) {
+    u32 turns;
+
+    IncrementBattleScriptPtr(sp, 1);
+
+    turns = read_battle_script_param(sp);
+
+    if (sp->binding_turns[sp->defence_client] != 0)
+    {
+        IncrementBattleScriptPtr(sp, turns);
+        return FALSE;
+    }
+
+    if (HeldItemHoldEffectGet(sp, sp->attack_client) == HOLD_EFFECT_EXTEND_TRAPPING) {
+        turns = 8; // 7 turns
+    } else {
+        turns = 5 + (BattleRand(bw) & 1); // 4-5 turns
+    }
+
+    sp->binding_turns[sp->defence_client] = turns;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to clear binding turns
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_F8_clearbindcounter(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    sp->binding_turns[sp->attack_client] = 0;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to calculate the amount of HP should a client recover by using Moonlight, Morning Sun, or Synthesis
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    // u8 buf[64];
+    // sprintf(buf, "In BtlCmd_WeatherHPRecovery\n");
+    // debugsyscall(buf);
+
+    // For Strong Winds, the moves Moonlight, Morning Sun, and Synthesis continue to recover ½ of max HP, as they do in clear weather.
+    if (!(sp->field_condition & FIELD_CONDITION_WEATHER)
+    || (sp->field_condition & WEATHER_STRONG_WINDS)
+    || CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE)
+    || CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK)) {
+        // sprintf(buf, "Recover half\n");
+        // debugsyscall(buf);
+        sp->hp_calc_work = sp->battlemon[sp->attack_client].maxhp / 2;
+    } else if (sp->field_condition & WEATHER_SUNNY_ANY) {
+        // sprintf(buf, "Recover 2/3\n");
+        // debugsyscall(buf);
+        sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * 20, 30);
+    } else {
+        // sprintf(buf, "Recover 1/4\n");
+        // debugsyscall(buf);
+        sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp, 4);
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    // u8 buf[64];
+    // sprintf(buf, "In BtlCmd_CalcWeatherBallParams\n");
+    // debugsyscall(buf);
+
+    if (!CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK)) {
+        if ((sp->field_condition & FIELD_CONDITION_WEATHER) && !(sp->field_condition & WEATHER_STRONG_WINDS)) {
+            sp->damage_power = sp->moveTbl[sp->current_move_index].power * 2;
+            if (sp->field_condition & WEATHER_RAIN_ANY) {
+                sp->move_type = TYPE_WATER;
+            }
+            if (sp->field_condition & WEATHER_SANDSTORM_ANY) {
+                sp->move_type = TYPE_ROCK;
+            }
+            if (sp->field_condition & WEATHER_SUNNY_ANY) {
+                sp->move_type = TYPE_FIRE;
+            }
+            if (sp->field_condition & WEATHER_HAIL_ANY) {
+                sp->move_type = TYPE_ICE;
+            }
+            // In Pokémon XD: Gale of Darkness, when used during a shadowy aura, Weather Ball's power doubles to 100, and the move becomes a typeless physical move
+            if (sp->field_condition & WEATHER_SHADOWY_AURA_ANY) {
+                sp->move_type = TYPE_TYPELESS;
+            }
+
+        } else {
+            sp->damage_power = sp->moveTbl[sp->current_move_index].power;
+        }
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_TrySubstitute(void *bw UNUSED, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    int adrs = read_battle_script_param(sp);
+
+    int subHp = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp, 4);
+
+    if (sp->battlemon[sp->attack_client].hp <= subHp) {
+        IncrementBattleScriptPtr(sp, adrs);
+    } else {
+        sp->hp_calc_work = -subHp;
+        sp->battlemon[sp->attack_client].moveeffect.substituteHp = subHp;
+        sp->binding_turns[sp->attack_client] = 0;
+        //sp->battlemon[sp->attack_client].condition2 &= ~STATUS2_BIND;
+    }
+
+    return FALSE;
+}
+
+BOOL BtlCmd_RapidSpin(void *bw, struct BattleStruct *sp)
+{
+    int side = IsClientEnemy(bw, sp->attack_client);
+
+    //Binding Moves
+    if (sp->binding_turns[sp->attack_client] != 0) {
+        sp->binding_turns[sp->attack_client] = 0;
+        sp->client_work = sp->battlemon[sp->attack_client].moveeffect.battlerIdBinding;
+        sp->waza_work = sp->battlemon[sp->attack_client].moveeffect.bindingMove;
+        SkillSequenceGosub(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BREAK_CLAMP);
+        return FALSE;
+    }
+
+    //Leech Seed
+    if (sp->battlemon[sp->attack_client].effect_of_moves & MOVE_EFFECT_FLAG_LEECH_SEED_ACTIVE) {
+        sp->battlemon[sp->attack_client].effect_of_moves &= ~MOVE_EFFECT_FLAG_LEECH_SEED_ACTIVE;
+        sp->battlemon[sp->attack_client].effect_of_moves &= ~MOVE_EFFECT_LEECH_SEED_BATTLER;
+        sp->waza_work = MOVE_LEECH_SEED;
+        SkillSequenceGosub(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BLOW_AWAY_HAZARDS_MESSAGE);
+        return FALSE;
+    }
+
+    //Spikes
+    if (sp->scw[side].spikesLayers) {
+        sp->side_condition[side] &= ~SIDE_STATUS_SPIKES;
+        sp->scw[side].spikesLayers = 0;
+        sp->waza_work = MOVE_SPIKES;
+        SkillSequenceGosub(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BLOW_AWAY_HAZARDS_MESSAGE);
+        return FALSE;
+    }
+
+    //Toxic Spikes
+    if (sp->scw[side].toxicSpikesLayers) {
+        sp->side_condition[side] &= ~SIDE_STATUS_TOXIC_SPIKES;
+        sp->scw[side].toxicSpikesLayers = 0;
+        sp->waza_work = MOVE_TOXIC_SPIKES;
+        SkillSequenceGosub(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BLOW_AWAY_HAZARDS_MESSAGE);
+        return FALSE;
+    }
+
+    //Stealth Rocks
+    if (sp->side_condition[side] & SIDE_STATUS_STEALTH_ROCK) {
+        sp->side_condition[side] &= ~SIDE_STATUS_STEALTH_ROCK;
+        sp->waza_work = MOVE_STEALTH_ROCK;
+        SkillSequenceGosub(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BLOW_AWAY_HAZARDS_MESSAGE);
+        return FALSE;
+    }
+
+    IncrementBattleScriptPtr(sp, 1);
 
     return FALSE;
 }
