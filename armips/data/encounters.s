@@ -10287,9 +10287,9 @@ encounter SPECIES_BUIZEL, 20, 20
 // super rod encounters
 encounter SPECIES_BUIZEL, 40, 40
 encounter SPECIES_BUIZEL, 40, 40
-encounter SPECIES_GASTRODON, 40, 40
-encounter SPECIES_GASTRODON, 40, 40
-encounter SPECIES_GASTRODON, 40, 40
+encounterwithform SPECIES_GASTRODON, 1, 40, 40
+encounterwithform SPECIES_GASTRODON, 1, 40, 40
+encounterwithform SPECIES_GASTRODON, 1, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12079,49 +12079,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 13, 13, 13, 14, 14, 15, 15, 12, 14, 12, 14
+walklevels 44, 44, 44, 44, 45, 45, 46, 46, 42, 42, 43, 44
 
 // morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_SLIGGOO
+pokemon SPECIES_SLIGGOO
 
 // day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_SLIGGOO
+pokemon SPECIES_SLIGGOO
 
 // night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_WATCHOG
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_DIGGERSBY
+pokemon SPECIES_TALONFLAME
+pokemon SPECIES_SLIGGOO
+pokemon SPECIES_SLIGGOO
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -12132,36 +12132,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 10
-encounter SPECIES_PSYDUCK, 5, 5
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
+encounterwithform SPECIES_BASCULIN, 1, 10, 10
+encounterwithform SPECIES_BASCULIN, 1, 5, 5
+encounterwithform SPECIES_BASCULIN, 1, 10, 10
+encounterwithform SPECIES_BASCULIN, 0, 10, 10
+encounterwithform SPECIES_BASCULIN, 0, 10, 10
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
+encounterwithform SPECIES_FRILLISH, 1, 10, 10
+encounterwithform SPECIES_FRILLISH, 0, 10, 10
+encounterwithform SPECIES_FRILLISH, 0, 10, 10
+encounterwithform SPECIES_FRILLISH, 0, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
+encounterwithform SPECIES_FRILLISH, 1, 20, 20
+encounterwithform SPECIES_FRILLISH, 0, 20, 20
+encounterwithform SPECIES_JELLICENT, 1, 20, 20
+encounterwithform SPECIES_JELLICENT, 0, 20, 20
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounterwithform SPECIES_JELLICENT, 1, 40, 40
+encounter SPECIES_JELLICENT, 40, 40
+encounter SPECIES_CLAWITZER, 40, 40
+encounter SPECIES_CLAWITZER, 40, 40
+encounter SPECIES_CLAWITZER, 40, 40
 
 // swarm grass
 pokemon SPECIES_PIDGEY

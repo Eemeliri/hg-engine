@@ -7206,25 +7206,25 @@ trainerdata 230, "Franklin"
 
     party 230
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 44
-        pokemon SPECIES_KADABRA
-        move MOVE_HEADBUTT
-        move MOVE_SKILL_SWAP
-        move MOVE_PSYCHIC
-        move MOVE_DISABLE
+        level 60
+        pokemon SPECIES_MALAMAR
+        move MOVE_ANCIENT_POWER
+        move MOVE_SUPERPOWER
+        move MOVE_DARK_PULSE
+        move MOVE_PSYBEAM
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 47
-        pokemon SPECIES_GIRAFARIG
-        move MOVE_CRUNCH
-        move MOVE_SKILL_SWAP
-        move MOVE_DOUBLE_HIT
+        level 60
+        pokemon SPECIES_FARIGIRAF
+        move MOVE_STOMP
         move MOVE_PSYCHIC
+        move MOVE_DOUBLE_HIT
+        move MOVE_SHADOW_BALL
         ballseal 0
     endparty
 
@@ -8653,7 +8653,7 @@ trainerdata 257, "Janine"
 trainerdata 258, "Sabrina"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_10
-    nummons 3
+    nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -8666,11 +8666,11 @@ trainerdata 258, "Sabrina"
         // mon 0
         ivs 200
         abilityslot 0
-        level 53
-        pokemon SPECIES_ESPEON
+        level 62
+        pokemon SPECIES_GOTHITELLE
         item ITEM_NONE
         move MOVE_SHADOW_BALL
-        move MOVE_SKILL_SWAP
+        move MOVE_TRICK_ROOM
         move MOVE_CALM_MIND
         move MOVE_PSYCHIC
         ballseal 0
@@ -8678,25 +8678,61 @@ trainerdata 258, "Sabrina"
         // mon 1
         ivs 200
         abilityslot 32
-        level 53
-        pokemon SPECIES_MR_MIME
+        level 62
+        pokemon SPECIES_REUNICLUS
         item ITEM_NONE
-        move MOVE_MIMIC
+        move MOVE_ENERGY_BALL
         move MOVE_LIGHT_SCREEN
-        move MOVE_SKILL_SWAP
+        move MOVE_EARTH_POWER
         move MOVE_PSYCHIC
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 55
+        level 63
+        pokemon SPECIES_SWOOBAT
+        item ITEM_SITRUS_BERRY
+        move MOVE_DARK_PULSE
+        move MOVE_PSYCHIC
+        move MOVE_AMNESIA
+        move MOVE_NASTY_PLOT
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 63
         pokemon SPECIES_ALAKAZAM
         item ITEM_SITRUS_BERRY
         move MOVE_SKILL_SWAP
         move MOVE_PSYCHIC
         move MOVE_ENERGY_BALL
         move MOVE_REFLECT
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 64
+        pokemon SPECIES_GALLADE
+        item ITEM_WHITE_HERB
+        move MOVE_PSYCHO_CUT
+        move MOVE_SWORDS_DANCE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_LEAF_BLADE
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 65
+        pokemon SPECIES_GARDEVOIR
+        item ITEM_GARDEVOIRITE
+        move MOVE_MOONBLAST
+        move MOVE_PSYCHIC
+        move MOVE_ENERGY_BALL
+        move MOVE_THUNDERBOLT
         ballseal 0
     endparty
 
@@ -12813,22 +12849,22 @@ trainerdata 368, "Rebecca"
         // mon 0
         ivs 0
         abilityslot 32
-        level 45
-        pokemon SPECIES_BRONZOR
+        level 59
+        pokemon SPECIES_BRONZONG
         move MOVE_FEINT_ATTACK
         move MOVE_SKILL_SWAP
-        move MOVE_SAFEGUARD
+        move MOVE_PSYCHIC
         move MOVE_GYRO_BALL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 45
+        level 60
         pokemon SPECIES_HYPNO
         move MOVE_SWAGGER
         move MOVE_SKILL_SWAP
-        move MOVE_PSYBEAM
+        move MOVE_PSYCHO_CUT
         move MOVE_HYPNOSIS
         ballseal 0
     endparty
@@ -12849,9 +12885,9 @@ trainerdata 369, "Darcy"
         // mon 0
         ivs 0
         abilityslot 32
-        level 44
-        pokemon SPECIES_SLOWPOKE
-        move MOVE_SKILL_SWAP
+        level 59
+        monwithform SPECIES_SLOWBRO, 1
+        move MOVE_SLUDGE_BOMB
         move MOVE_AMNESIA
         move MOVE_DISABLE
         move MOVE_PSYCHIC
@@ -12860,10 +12896,10 @@ trainerdata 369, "Darcy"
         // mon 1
         ivs 0
         abilityslot 32
-        level 46
+        level 59
         pokemon SPECIES_SLOWBRO
         move MOVE_SKILL_SWAP
-        move MOVE_SLACK_OFF
+        move MOVE_SURF
         move MOVE_PSYCHIC
         move MOVE_YAWN
         ballseal 0
@@ -14292,8 +14328,8 @@ trainerdata 415, "Jared"
         // mon 0
         ivs 0
         abilityslot 32
-        level 42
-        pokemon SPECIES_MR_MIME
+        level 58
+        pokemon SPECIES_ELGYEM
         move MOVE_SKILL_SWAP
         move MOVE_PSYCHIC
         move MOVE_REFLECT
@@ -14303,9 +14339,9 @@ trainerdata 415, "Jared"
         // mon 1
         ivs 0
         abilityslot 0
-        level 42
-        pokemon SPECIES_EXEGGCUTE
-        move MOVE_SKILL_SWAP
+        level 58
+        monwithform SPECIES_EXEGGUTOR, 1
+        move MOVE_DRAGON_PULSE
         move MOVE_PSYCHIC
         move MOVE_SLEEP_POWDER
         move MOVE_LEECH_SEED
@@ -14314,12 +14350,12 @@ trainerdata 415, "Jared"
         // mon 2
         ivs 0
         abilityslot 0
-        level 45
-        pokemon SPECIES_EXEGGCUTE
+        level 58
+        pokemon SPECIES_BEHEEYEM
         move MOVE_SKILL_SWAP
         move MOVE_PSYCHIC
         move MOVE_HYPNOSIS
-        move MOVE_GRASS_KNOT
+        move MOVE_EARTH_POWER
         ballseal 0
     endparty
 
@@ -20407,17 +20443,17 @@ trainerdata 598, "Day & Dani"
 
     party 598
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 41
-        pokemon SPECIES_PLUSLE
+        level 58
+        pokemon SPECIES_MEOWSTIC
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 41
-        pokemon SPECIES_MINUN
+        level 58
+        monwithform SPECIES_MEOWSTIC, 1
         ballseal 0
     endparty
 
@@ -20435,10 +20471,10 @@ trainerdata 599, "Virgil"
 
     party 599
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 43
-        pokemon SPECIES_SLAKOTH
+        level 59
+        pokemon SPECIES_PANCHAM
         ballseal 0
     endparty
 
@@ -20456,10 +20492,10 @@ trainerdata 600, "Selina"
 
     party 600
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 42
-        pokemon SPECIES_CHERUBI
+        level 58
+        pokemon SPECIES_AMOONGUSS
         ballseal 0
     endparty
 
