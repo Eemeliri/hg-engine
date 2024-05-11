@@ -7263,36 +7263,36 @@ trainerdata 232, "Vincent"
 
     party 232
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 45
+        level 57
         pokemon SPECIES_JOLTEON
         move MOVE_SHOCK_WAVE
         move MOVE_QUICK_ATTACK
         move MOVE_PIN_MISSILE
-        move MOVE_HELPING_HAND
+        move MOVE_HIDDEN_POWER
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 43
-        pokemon SPECIES_VOLTORB
-        move MOVE_SHOCK_WAVE
+        level 57
+        pokemon SPECIES_EMOLGA
+        move MOVE_THUNDER_WAVE
         move MOVE_SWIFT
-        move MOVE_GYRO_BALL
-        move MOVE_SCREECH
+        move MOVE_GRASS_KNOT
+        move MOVE_THUNDER
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 42
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_SHOCK_WAVE
-        move MOVE_SUPERSONIC
+        level 58
+        pokemon SPECIES_HELIOLISK
+        move MOVE_DOUBLE_EDGE
+        move MOVE_THUNDER_PUNCH
         move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
+        move MOVE_VOLT_SWITCH
         ballseal 0
     endparty
 
@@ -8431,7 +8431,7 @@ trainerdata 254, "Misty"
 trainerdata 255, "Lt. Surge"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_7
-    nummons 5
+    nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -8444,61 +8444,73 @@ trainerdata 255, "Lt. Surge"
         // mon 0
         ivs 200
         abilityslot 0
-        level 51
-        pokemon SPECIES_RAICHU
-        item ITEM_NONE
+        level 59
+        monwithform SPECIES_GOLEM, 1
+        item ITEM_FOCUS_SASH
         move MOVE_THUNDER_WAVE
-        move MOVE_QUICK_ATTACK
-        move MOVE_SHOCK_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_STEALTH_ROCK
+        move MOVE_EXPLOSION
+        move MOVE_STONE_EDGE
         ballseal 0
 
         // mon 1
         ivs 200
         abilityslot 32
-        level 47
-        pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
-        move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SHOCK_WAVE
-        move MOVE_LIGHT_SCREEN
+        level 59
+        pokemon SPECIES_MAGNEZONE
+        item ITEM_AIR_BALLOON
+        move MOVE_DISCHARGE
+        move MOVE_FLASH_CANNON
+        move MOVE_VOLT_SWITCH
+        move MOVE_HIDDEN_POWER
         ballseal 0
 
         // mon 2
         ivs 200
         abilityslot 0
-        level 47
-        pokemon SPECIES_MAGNETON
-        item ITEM_NONE
-        move MOVE_SUPERSONIC
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SHOCK_WAVE
-        move MOVE_MIRROR_SHOT
+        level 60
+        pokemon SPECIES_ROTOM_WASH
+        item ITEM_LEFTOVERS
+        move MOVE_HYDRO_PUMP
+        move MOVE_WILL_O_WISP
+        move MOVE_THUNDERBOLT
+        move MOVE_VOLT_SWITCH
         ballseal 0
 
         // mon 3
         ivs 200
         abilityslot 32
-        level 47
-        pokemon SPECIES_ELECTRODE
+        level 60
+        monwithform SPECIES_RAICHU, 1
         item ITEM_NONE
-        move MOVE_SCREECH
-        move MOVE_DOUBLE_TEAM
-        move MOVE_SELF_DESTRUCT
-        move MOVE_CHARGE_BEAM
+        move MOVE_THUNDER
+        move MOVE_PSYCHIC
+        move MOVE_SURF
+        move MOVE_FLY
         ballseal 0
 
         // mon 4
         ivs 200
         abilityslot 0
-        level 53
-        pokemon SPECIES_ELECTABUZZ
+        level 61
+        pokemon SPECIES_GALVANTULA
         item ITEM_SITRUS_BERRY
-        move MOVE_QUICK_ATTACK
-        move MOVE_SHOCK_WAVE
+        move MOVE_BUG_BUZZ
+        move MOVE_ELECTRIC_TERRAIN
         move MOVE_LIGHT_SCREEN
-        move MOVE_LOW_KICK
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 62
+        pokemon SPECIES_EELEKTROSS
+        item ITEM_SITRUS_BERRY
+        move MOVE_EARTHQUAKE
+        move MOVE_THUNDERBOLT
+        move MOVE_FLAMETHROWER
+        move MOVE_BRICK_BREAK
         ballseal 0
     endparty
 
@@ -11808,21 +11820,21 @@ trainerdata 337, "Gregory"
 
     party 337
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 46
-        pokemon SPECIES_PIKACHU
+        level 57
+        monwithform SPECIES_RAICHU, 1
         move MOVE_DISCHARGE
         move MOVE_LIGHT_SCREEN
         move MOVE_THUNDER_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_SURF
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 43
-        pokemon SPECIES_FLAAFFY
+        level 57
+        pokemon SPECIES_DEDENNE
         move MOVE_SHOCK_WAVE
         move MOVE_SIGNAL_BEAM
         move MOVE_CHARGE_BEAM
@@ -11830,14 +11842,14 @@ trainerdata 337, "Gregory"
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 42
-        pokemon SPECIES_ELECTRIKE
+        level 58
+        pokemon SPECIES_EELEKTRIK
         move MOVE_SHOCK_WAVE
-        move MOVE_ROAR
+        move MOVE_EARTH_POWER
         move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_FANG
+        move MOVE_SLAM
         ballseal 0
     endparty
 
@@ -13685,36 +13697,36 @@ trainerdata 396, "Horton"
 
     party 396
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
+        level 56
+        monwithform SPECIES_ELECTRODE, 1
+        move MOVE_CHLOROBLAST
         move MOVE_SHOCK_WAVE
-        move MOVE_SCREECH
+        move MOVE_ROLLOUT
         move MOVE_EXPLOSION
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
+        level 57
+        pokemon SPECIES_LUXRAY
+        move MOVE_CRUNCH
         move MOVE_SHOCK_WAVE
-        move MOVE_DOUBLE_TEAM
+        move MOVE_VOLT_TACKLE
         move MOVE_LIGHT_SCREEN
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_SWIFT
-        move MOVE_SHOCK_WAVE
-        move MOVE_SCREECH
-        move MOVE_ROLLOUT
+        level 58
+        pokemon SPECIES_ZEBSTRIKA
+        move MOVE_FLAME_CHARGE
+        move MOVE_VOLT_TACKLE
+        move MOVE_STOMP
+        move MOVE_CHARGE
         ballseal 0
     endparty
 
