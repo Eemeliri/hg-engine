@@ -1,0 +1,10 @@
+Useful stuff to know:
+- If you are using MelonDS and your dpad does not work in battle, disable "Literal optimisations" in MelondS Settings->CPU Emulation
+
+- Goldenrod sells mints and ability capsules
+- Buenas radio show rewards better items such as ability patches when reaching certain point milestones
+- Ruins of Alph backrooms have greater rewards
+- Union Cave post-surf is full of strong trainers, but the rewards may be worth it
+- Several item balls have been edited to contain new items
+- Many species learn an attacking move slightly earlier to reduce the tedium of having to use pound/tackle/scratch for too many levels
+- Non-berry held items are restored after battle

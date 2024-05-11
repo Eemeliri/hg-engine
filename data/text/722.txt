@@ -248,7 +248,7 @@ Halves the damage\ntaken from special moves.
 Ripens Berries and\ndoubles their effect.
 Blocks a physical hit, but\nthe ice head breaks.
 Just being next to\nthe Pokémon powers up moves.
-Changes type depending\non the terrain.
+Powers up\nslicing moves.
 On entering battle, clears\neffects of Reflect, etc.
 Powers up ally Pokémon’s\nSteel-type moves.
 Both Pokémon faint 3 turns\nafter taking a contact hit.
@@ -290,7 +290,7 @@ Makes the weather sunny.\nUps Attack in sun.
 Makes Electric Terrain.\nUps Sp. Atk on Electric Terrain.
 If foe raises a stat,\nboosts the stat itself.
 After eating a Berry,\nit’s eaten again next turn.
-Powers up\nslicing moves.
+Changes type depending\non the terrain.
 Ups Attack and Sp. Atk\nif allies were defeated.
 Copies an ally’s stat\nchanges when sent out.
 Scatters poison spikes\nif hit by physical moves.

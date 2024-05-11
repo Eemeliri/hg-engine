@@ -10260,36 +10260,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TYMPOLE, 35, 45
+encounter SPECIES_DUCKLETT, 30, 45
+encounter SPECIES_PALPITOAD, 35, 45
+encounter SPECIES_SWANNA, 35, 45
+encounter SPECIES_CLAUNCHER, 35, 45
 
 // rock smash encounters
-encounter SPECIES_DIGLETT, 24, 37
-encounter SPECIES_SHUCKLE, 32, 35
+encounter SPECIES_DWEBBLE, 34, 37
+encounter SPECIES_ARCHEN, 42, 45
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_TYMPOLE, 10, 10
+encounter SPECIES_TYMPOLE, 10, 10
+encounter SPECIES_CLAUNCHER, 10, 10
+encounter SPECIES_CLAUNCHER, 10, 10
+encounter SPECIES_CLAUNCHER, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_TYMPOLE, 20, 20
+encounter SPECIES_PALPITOAD, 20, 20
+encounter SPECIES_PALPITOAD, 20, 20
+encounter SPECIES_BUIZEL, 20, 20
+encounter SPECIES_BUIZEL, 20, 20
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_BUIZEL, 40, 40
+encounter SPECIES_BUIZEL, 40, 40
+encounter SPECIES_GASTRODON, 40, 40
+encounter SPECIES_GASTRODON, 40, 40
+encounter SPECIES_GASTRODON, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE

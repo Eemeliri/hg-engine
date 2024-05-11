@@ -248,7 +248,7 @@ Ice Scales
 Ripen
 Ice Face
 Power Spot
-Mimicry
+Sharpness
 Screen Cleaner
 Steely Spirit
 Perish Body
@@ -290,7 +290,7 @@ Orichalcum Pulse
 Hadron Engine
 Opportunist
 Cud Chew
-Sharpness
+Mimicry
 Supreme Overlord
 Costar
 Toxic Debris

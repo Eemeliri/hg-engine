@@ -4615,10 +4615,10 @@ trainerdata 139, "Debra"
 
     party 139
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 41
-        pokemon SPECIES_SEAKING
+        level 57
+        pokemon SPECIES_CARRACOSTA
         ballseal 0
     endparty
 
@@ -7366,16 +7366,16 @@ trainerdata 235, "Noland"
 
     party 235
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 39
-        pokemon SPECIES_BRONZOR
+        level 54
+        pokemon SPECIES_BRONZONG
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 42
+        level 55
         pokemon SPECIES_GOLEM
         ballseal 0
     endparty
@@ -7488,24 +7488,24 @@ trainerdata 238, "Stanly"
 
     party 238
         // mon 0
-        ivs 0
-        abilityslot 32
-        level 39
-        pokemon SPECIES_MACHOP
+        ivs 100
+        abilityslot 0
+        level 54
+        pokemon SPECIES_CONKELDURR
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 32
-        level 41
-        pokemon SPECIES_MACHOKE
+        ivs 100
+        abilityslot 0
+        level 55
+        pokemon SPECIES_MACHAMP
         ballseal 0
 
         // mon 2
-        ivs 0
-        abilityslot 32
-        level 34
-        pokemon SPECIES_PSYDUCK
+        ivs 100
+        abilityslot 0
+        level 56
+        pokemon SPECIES_SWANNA
         ballseal 0
     endparty
 
@@ -7523,17 +7523,17 @@ trainerdata 239, "Jeff"
 
     party 239
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 40
-        pokemon SPECIES_MAKUHITA
+        level 56
+        pokemon SPECIES_DRAGALGE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 40
-        pokemon SPECIES_RATICATE
+        level 56
+        pokemon SPECIES_HAWLUCHA
         ballseal 0
     endparty
 
@@ -7614,9 +7614,9 @@ trainerdata 242, "Fritz"
 
     party 242
         // mon 0
-        ivs 0
+        ivs 50
         abilityslot 32
-        level 37
+        level 55
         pokemon SPECIES_MR_MIME
         move MOVE_SUBSTITUTE
         move MOVE_PSYCHIC
@@ -7625,24 +7625,24 @@ trainerdata 242, "Fritz"
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 37
-        pokemon SPECIES_MAGMAR
+        level 55
+        pokemon SPECIES_MAGMORTAR
         move MOVE_LAVA_PLUME
         move MOVE_FIRE_PUNCH
-        move MOVE_CONFUSE_RAY
-        move MOVE_FEINT_ATTACK
+        move MOVE_SLUDGE_BOMB
+        move MOVE_POISON_JAB
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 37
-        pokemon SPECIES_MACHOKE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_KARATE_CHOP
-        move MOVE_SEISMIC_TOSS
+        level 56
+        pokemon SPECIES_ELECTIVIRE
+        move MOVE_THUNDERBOLT
+        move MOVE_LOW_KICK
+        move MOVE_FIRE_PUNCH
         move MOVE_REVENGE
         ballseal 0
     endparty
@@ -13789,24 +13789,24 @@ trainerdata 399, "Lyle"
 
     party 399
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 36
-        pokemon SPECIES_KOFFING
+        level 55
+        pokemon SPECIES_SCOLIPEDE
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 39
+        level 55
         pokemon SPECIES_FLAREON
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 36
-        pokemon SPECIES_KOFFING
+        level 55
+        pokemon SPECIES_PYROAR
         ballseal 0
     endparty
 
@@ -14638,14 +14638,14 @@ trainerdata 424, "Colin"
 
     party 424
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 40
-        pokemon SPECIES_DELIBIRD
-        move MOVE_PRESENT
-        move MOVE_AERIAL_ACE
+        level 56
+        pokemon SPECIES_FROSLASS
+        move MOVE_ICE_BEAM
+        move MOVE_SHADOW_BALL
         move MOVE_AVALANCHE
-        move MOVE_NONE
+        move MOVE_HAIL
         ballseal 0
     endparty
 
@@ -14663,17 +14663,17 @@ trainerdata 425, "Meg & Peg"
 
     party 425
         // mon 0
-        ivs 0
+        ivs 100
         abilityslot 32
-        level 39
-        pokemon SPECIES_TEDDIURSA
+        level 55
+        pokemon SPECIES_URSALUNA
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 100
         abilityslot 0
-        level 39
-        pokemon SPECIES_PHANPY
+        level 55
+        pokemon SPECIES_SEISMITOAD
         ballseal 0
     endparty
 
@@ -14691,17 +14691,17 @@ trainerdata 426, "Meg & Peg"
 
     party 426
         // mon 0
-        ivs 0
-        abilityslot 0
-        level 39
-        pokemon SPECIES_PHANPY
+        ivs 100
+        abilityslot 32
+        level 55
+        pokemon SPECIES_URSALUNA
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 32
-        level 39
-        pokemon SPECIES_TEDDIURSA
+        ivs 100
+        abilityslot 0
+        level 55
+        pokemon SPECIES_SEISMITOAD
         ballseal 0
     endparty
 
