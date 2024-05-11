@@ -1,0 +1,8 @@
+1.1
+- Stolen held items are now restored after battle, and if player steals items from enemy pokemon, they are placed to bag
+- Level 100 Pokémon can now gain EVs
+
+1.0
+- Goes up to elite four
+- Zapdos, moltres and articuno can be caught in this version (locations are different from basegame)
+- Megastones can be found as 5% rare held items on the species that would mega evolve with them. (This will change in the future)
