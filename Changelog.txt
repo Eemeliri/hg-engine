@@ -1,3 +1,8 @@
+1.2
+- Vermillion city, Route 6 and Sabrina's gym are now done.
+- Various hg-engine fixes and changes (including dynamic speed)
+- Kleavor has a cry now
+
 1.1
 - Stolen held items are now restored after battle, and if player steals items from enemy pokemon, they are placed to bag
 - Level 100 Pokémon can now gain EVs
