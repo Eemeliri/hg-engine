@@ -1,3 +1,4 @@
-- Certain species have oversampled cries (like Kleavor and megas), which causes their cry to not play, this will be fixed eventually when they are resampled to lower quality
+- Certain species have oversampled cries (like megas), which causes their cry to not play, this will be fixed eventually when they are resampled to lower quality
 - Certain moves are still missing animation or effect (missing animation uses hone claws animation)
 - Species locations in pokedex do not always match reality, check the docs until I've finished inputting them all to dex.
+- Certain regional forms are still missing sprites
