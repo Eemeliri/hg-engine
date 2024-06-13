@@ -1065,7 +1065,7 @@ trainerdata 30, "Whitney"
         ivs 100
         abilityslot 0
         level 21
-        pokemon SPECIES_CLEFAIRY
+        pokemon SPECIES_JIGGLYPUFF
         item ITEM_NONE
         move MOVE_DOUBLE_SLAP
         move MOVE_MIMIC

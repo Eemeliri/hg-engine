@@ -5268,7 +5268,7 @@ mondata SPECIES_HO_OH, "Ho-oh"
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
-    items ITEM_SACRED_ASH, ITEM_NONE
+    items ITEM_SACRED_ASH, ITEM_SACRED_ASH
     genderratio 255
     eggcycles 120
     basefriendship 0
