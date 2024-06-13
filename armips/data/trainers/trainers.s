@@ -6543,7 +6543,7 @@ trainerdata 206, "Gwen"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype DOUBLE_BATTLE
+    battletype SINGLE_BATTLE
     endentry
 
     party 206
@@ -12691,7 +12691,7 @@ trainerdata 363, "Emma"
         ivs 50
         abilityslot 0
         level 39
-        pokemon SPECIES_PERSIAN_ALOLAN
+        monwithform SPECIES_PERSIAN, 1
         item ITEM_NONE
         ballseal 0
 
@@ -20474,7 +20474,7 @@ trainerdata 599, "Virgil"
         ivs 100
         abilityslot 0
         level 59
-        pokemon SPECIES_PANCHAM
+        pokemon SPECIES_PANGORO
         ballseal 0
     endparty
 
