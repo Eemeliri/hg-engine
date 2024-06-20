@@ -86,3 +86,6 @@ tools/swav2swar.exe
 
 *.ml*
 *.xdelta
+
+*.gbapal
+*.4bpp
