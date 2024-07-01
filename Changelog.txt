@@ -1,3 +1,7 @@
+1.5
+- Most regional forms now have sprites!
+- Bugfixes
+
 1.4
 - Tons of bugfixes! Thanks for playtesting and reporting!
 
