@@ -1,3 +1,9 @@
+1.6
+- Ice Path has a new subarea with Regice!
+- Slight buffs to Masquerain (70, 60, 62, 80, 100, 82) -> (75, 60, 62, 90, 100, 85)
+- Constrict effect chance 10% -> 100%
+- Poké-, Great- and Ultraballs are now cheaper
+
 1.5
 - Most regional forms now have sprites!
 - Bugfixes

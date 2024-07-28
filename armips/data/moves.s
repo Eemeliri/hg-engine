@@ -2128,7 +2128,7 @@ movedata MOVE_CONSTRICT, "Constrict"
     type TYPE_NORMAL
     accuracy 100
     pp 35
-    effectchance 10
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
