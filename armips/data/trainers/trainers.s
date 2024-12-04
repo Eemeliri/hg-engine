@@ -1051,7 +1051,7 @@ trainerdata 29, "Rod"
 
 trainerdata 30, "Whitney"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_LEADER
+    trainerclass TRAINERCLASS_LEADER_WHITNEY
     nummons 4
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
@@ -8470,7 +8470,7 @@ trainerdata 255, "Lt. Surge"
         ivs 200
         abilityslot 0
         level 60
-        pokemon SPECIES_ROTOM_WASH
+        monwithform SPECIES_ROTOM, 2
         item ITEM_LEFTOVERS
         move MOVE_HYDRO_PUMP
         move MOVE_WILL_O_WISP
@@ -8481,7 +8481,7 @@ trainerdata 255, "Lt. Surge"
         // mon 3
         ivs 200
         abilityslot 32
-        level 60
+        level 61
         monwithform SPECIES_RAICHU, 1
         item ITEM_NONE
         move MOVE_THUNDER
@@ -8493,7 +8493,7 @@ trainerdata 255, "Lt. Surge"
         // mon 4
         ivs 200
         abilityslot 0
-        level 61
+        level 60
         pokemon SPECIES_GALVANTULA
         item ITEM_SITRUS_BERRY
         move MOVE_BUG_BUZZ
