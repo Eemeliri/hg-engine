@@ -8691,7 +8691,7 @@ trainerdata 258, "Sabrina"
         // mon 2
         ivs 200
         abilityslot 0
-        level 63
+        level 62
         pokemon SPECIES_SWOOBAT
         item ITEM_SITRUS_BERRY
         move MOVE_DARK_PULSE
@@ -8703,7 +8703,7 @@ trainerdata 258, "Sabrina"
         // mon 3
         ivs 200
         abilityslot 0
-        level 63
+        level 62
         pokemon SPECIES_ALAKAZAM
         item ITEM_SITRUS_BERRY
         move MOVE_SKILL_SWAP
@@ -8715,7 +8715,7 @@ trainerdata 258, "Sabrina"
         // mon 4
         ivs 200
         abilityslot 0
-        level 64
+        level 62
         pokemon SPECIES_GALLADE
         item ITEM_WHITE_HERB
         move MOVE_PSYCHO_CUT
@@ -8727,7 +8727,7 @@ trainerdata 258, "Sabrina"
         // mon 5
         ivs 200
         abilityslot 0
-        level 65
+        level 63
         pokemon SPECIES_GARDEVOIR
         item ITEM_GARDEVOIRITE
         move MOVE_MOONBLAST
@@ -12887,7 +12887,7 @@ trainerdata 369, "Darcy"
         ivs 0
         abilityslot 32
         level 59
-        monwithform SPECIES_SLOWBRO, 1
+        monwithform SPECIES_SLOWBRO, 2
         move MOVE_SLUDGE_BOMB
         move MOVE_AMNESIA
         move MOVE_DISABLE

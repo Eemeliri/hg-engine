@@ -492,7 +492,7 @@ PALETTE_FAIRY equ 401
 
 // HM001 CUT
 .skip 2
-.halfword PALETTE_NORMAL
+.halfword PALETTE_STEEL
 .skip 4
 
 // HM002 FLY
@@ -527,7 +527,7 @@ PALETTE_FAIRY equ 401
 
 // HM008 ROCK_CLIMB
 .skip 2
-.halfword PALETTE_NORMAL
+.halfword PALETTE_ROCK
 .skip 4
 
 .close
