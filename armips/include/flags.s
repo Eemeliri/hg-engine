@@ -1408,7 +1408,7 @@ FLAG_UNK_835                                              equ 2101 // 2101: Shin
 FLAG_UNK_836                                              equ 2102 //Manectite in Union Cave
 FLAG_UNK_837                                              equ 2103 // 2103: Hiker in Route 42 tunnel
 FLAG_UNK_838                                              equ 2104 // 2104: Cianwood city Black Augurite
-FLAG_UNK_839                                              equ 2105
+FLAG_UNK_839                                              equ 2105 // Celadon city npc blockage
 FLAG_UNK_83A                                              equ 2106
 FLAG_UNK_83B                                              equ 2107
 FLAG_UNK_83C                                              equ 2108
