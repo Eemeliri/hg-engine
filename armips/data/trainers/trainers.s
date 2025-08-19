@@ -61,7 +61,7 @@ trainerdata 1, "Silver"
         ivs 30
         abilityslot 0
         level 20
-        pokemon SPECIES_BAYLEEF
+        pokemon SPECIES_QUILLADIN
         ballseal 0
     endparty
 
@@ -82,7 +82,7 @@ trainerdata 2, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_TORCHIC
+        pokemon SPECIES_FENNEKIN
         ballseal 0
     endparty
 
@@ -103,7 +103,7 @@ trainerdata 3, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_SQUIRTLE
+        pokemon SPECIES_FROAKIE
         ballseal 0
     endparty
 
@@ -9044,11 +9044,11 @@ trainerdata 263, "Silver"
         ivs 80
         abilityslot 0
         level 27
-        pokemon SPECIES_BAYLEEF
-        move MOVE_FAIRY_WIND
-        move MOVE_ANCIENT_POWER
-        move MOVE_MAGICAL_LEAF
-        move MOVE_REFLECT
+        pokemon SPECIES_QUILLADIN
+        move MOVE_SEED_BOMB
+        move MOVE_LOW_KICK
+        move MOVE_BULK_UP
+        move MOVE_TAKE_DOWN
         ballseal 0
     endparty
 
@@ -9129,12 +9129,12 @@ trainerdata 264, "Silver"
         ivs 255
         abilityslot 0
         level 52
-        pokemon SPECIES_MEGANIUM
-        item ITEM_LIFE_ORB
-        move MOVE_DAZZLING_GLEAM
-        move MOVE_PETAL_DANCE
-        move MOVE_ANCIENT_POWER
-        move MOVE_EARTH_POWER
+        pokemon SPECIES_CHESNAUGHT
+        item ITEM_ASSAULT_VEST
+        move MOVE_SEED_BOMB
+        move MOVE_DRAIN_PUNCH
+        move MOVE_SPIKY_SHIELD
+        move MOVE_IRON_HEAD
         ballseal 0
     endparty
 
@@ -9155,7 +9155,7 @@ trainerdata 265, "Silver"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_CHIKORITA
+        pokemon SPECIES_CHESPIN
         ballseal 0
     endparty
 
@@ -9190,7 +9190,7 @@ trainerdata 266, "Silver"
         ivs 30
         abilityslot 0
         level 18
-        pokemon SPECIES_COMBUSKEN
+        pokemon SPECIES_BRAIXEN
         ballseal 0
     endparty
 
@@ -9244,11 +9244,11 @@ trainerdata 267, "Silver"
         ivs 80
         abilityslot 0
         level 26
-        pokemon SPECIES_COMBUSKEN
-        move MOVE_DOUBLE_KICK
-        move MOVE_AERIAL_ACE
-        move MOVE_FLAME_CHARGE
-        move MOVE_QUICK_ATTACK
+        pokemon SPECIES_BRAIXEN
+        move MOVE_PSYBEAM
+        move MOVE_FIRE_SPIN
+        move MOVE_WILL_O_WISP
+        move MOVE_HEX
         ballseal 0
     endparty
 
@@ -9329,12 +9329,12 @@ trainerdata 268, "Silver"
         ivs 160
         abilityslot 0
         level 52
-        pokemon SPECIES_BLAZIKEN
-        item ITEM_BLAZIKENITE
-        move MOVE_FIRE_PUNCH
-        move MOVE_SKY_UPPERCUT
-        move MOVE_QUICK_ATTACK
-        move MOVE_THUNDER_PUNCH
+        pokemon SPECIES_DELPHOX
+        item ITEM_LIFE_ORB
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_PSYCHIC
+        move MOVE_SHADOW_BALL
+        move MOVE_CALM_MIND
         ballseal 0
     endparty
 
@@ -9369,7 +9369,7 @@ trainerdata 269, "Silver"
         ivs 30
         abilityslot 0
         level 18
-        pokemon SPECIES_WARTORTLE
+        pokemon SPECIES_FROGADIER
         ballseal 0
     endparty
 
@@ -9423,11 +9423,11 @@ trainerdata 270, "Silver"
         ivs 80
         abilityslot 0
         level 26
-        pokemon SPECIES_WARTORTLE
-        move MOVE_RAPID_SPIN
-        move MOVE_ICE_FANG
+        pokemon SPECIES_FROGADIER
+        move MOVE_LOW_SWEEP
+        move MOVE_ICY_WIND
         move MOVE_WATER_PULSE
-        move MOVE_BITE
+        move MOVE_SWIFT
         ballseal 0
     endparty
 
@@ -9492,11 +9492,11 @@ trainerdata 271, "Silver"
         ivs 120
         abilityslot 0
         level 45
-        pokemon SPECIES_BLASTOISE
-        move MOVE_ICE_FANG
-        move MOVE_WATER_PULSE
-        move MOVE_BODY_SLAM
-        move MOVE_RAIN_DANCE
+        pokemon SPECIES_GRENINJA
+        move MOVE_ICE_BEAM
+        move MOVE_SURF
+        move MOVE_NIGHT_SLASH
+        move MOVE_EXTRASENSORY
         ballseal 0
     endparty
 
@@ -9577,12 +9577,12 @@ trainerdata 272, "Silver"
         ivs 160
         abilityslot 0
         level 52
-        pokemon SPECIES_BLASTOISE
-        item ITEM_BLASTOISINITE
+        pokemon SPECIES_GRENINJA
+        item ITEM_LIFE_ORB
         move MOVE_SURF
-        move MOVE_ICE_FANG
-        move MOVE_WATER_PULSE
-        move MOVE_FLASH_CANNON
+        move MOVE_ICE_BEAM
+        move MOVE_NIGHT_SLASH
+        move MOVE_GRASS_KNOT
         ballseal 0
     endparty
 
@@ -10055,11 +10055,11 @@ trainerdata 285, "Silver"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_MEGANIUM
-        move MOVE_PETAL_DANCE
-        move MOVE_POISON_POWDER
-        move MOVE_SYNTHESIS
-        move MOVE_LIGHT_SCREEN
+        pokemon SPECIES_CHESNAUGHT
+        move MOVE_SPIKY_SHIELD
+        move MOVE_SEED_BOMB
+        move MOVE_LOW_KICK
+        move MOVE_DRAIN_PUNCH
         ballseal 0
     endparty
 
@@ -10135,11 +10135,11 @@ trainerdata 286, "Silver"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_BLAZIKEN
-        move MOVE_FLARE_BLITZ
-        move MOVE_SKY_UPPERCUT
-        move MOVE_EARTHQUAKE
-        move MOVE_THUNDER_PUNCH
+        pokemon SPECIES_DELPHOX
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_PSYCHIC
+        move MOVE_SHADOW_BALL
+        move MOVE_CALM_MIND
         ballseal 0
     endparty
 
@@ -10215,11 +10215,11 @@ trainerdata 287, "Silver"
         ivs 200
         abilityslot 0
         level 50
-        pokemon SPECIES_BLASTOISE
+        pokemon SPECIES_GRENINJA
         move MOVE_SURF
-        move MOVE_FLASH_CANNON
+        move MOVE_NIGHT_SLASH
         move MOVE_ICE_BEAM
-        move MOVE_SHELL_SMASH
+        move MOVE_ROCK_SLIDE
         ballseal 0
     endparty
 
@@ -10284,11 +10284,11 @@ trainerdata 288, "Silver"
         ivs 120
         abilityslot 0
         level 45
-        pokemon SPECIES_MEGANIUM
-        move MOVE_REFLECT
-        move MOVE_MOONBLAST
-        move MOVE_SYNTHESIS
-        move MOVE_PETAL_DANCE
+        pokemon SPECIES_CHESNAUGHT
+        move MOVE_SEED_BOMB
+        move MOVE_LOW_KICK
+        move MOVE_IRON_DEFENSE
+        move MOVE_BODY_SLAM
         ballseal 0
     endparty
 
@@ -10353,11 +10353,11 @@ trainerdata 289, "Silver"
         ivs 120
         abilityslot 0
         level 45
-        pokemon SPECIES_BLAZIKEN
-        move MOVE_BOUNCE
-        move MOVE_BLAZE_KICK
-        move MOVE_DOUBLE_KICK
-        move MOVE_BULK_UP
+        pokemon SPECIES_DELPHOX
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_PSYCHIC
+        move MOVE_CALM_MIND
+        move MOVE_WILL_O_WISP
         ballseal 0
     endparty
 
@@ -14550,7 +14550,7 @@ trainerdata 419, "Ellen"
         ivs 0
         abilityslot 0
         level 40
-        pokemon SPECIES_WIGGLYTUFF
+        pokemon SPECIES_SYLVEON
         ballseal 0
 
         // mon 1
@@ -16862,11 +16862,11 @@ trainerdata 489, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_MEGANIUM
-        move MOVE_PETAL_DANCE
+        pokemon SPECIES_CHESNAUGHT
+        move MOVE_SEED_BOMB
         move MOVE_BODY_SLAM
-        move MOVE_LIGHT_SCREEN
-        move MOVE_SYNTHESIS
+        move MOVE_SPIKY_SHIELD
+        move MOVE_DRAIN_PUNCH
         ballseal 0
     endparty
 
@@ -16931,23 +16931,23 @@ trainerdata 490, "Silver"
         ivs 250
         abilityslot 0
         level 56
-        pokemon SPECIES_ALAKAZAM
-        move MOVE_RECOVER
-        move MOVE_FOCUS_BLAST
-        move MOVE_PSYCHIC
-        move MOVE_REFLECT
+        pokemon SPECIES_LAPRAS
+        move MOVE_ICE_BEAM
+        move MOVE_DRAGON_DANCE
+        move MOVE_WATERFALL
+        move MOVE_BODY_SLAM
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_BLAZIKEN
-        item ITEM_BLAZIKENITE
-        move MOVE_FLARE_BLITZ
-        move MOVE_CLOSE_COMBAT
-        move MOVE_PROTECT
-        move MOVE_THUNDER_PUNCH
+        pokemon SPECIES_DELPHOX
+        item ITEM_CHOICE_SCARF
+        move MOVE_FIRE_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_MYSTICAL_FIRE
+        move MOVE_TRICK
         ballseal 0
     endparty
 
@@ -17028,12 +17028,12 @@ trainerdata 491, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_BLASTOISE
-        item ITEM_WHITE_HERB
-        move MOVE_FLASH_CANNON
-        move MOVE_BLIZZARD
+        pokemon SPECIES_GRENINJA
+        item ITEM_LIFE_ORB
         move MOVE_HYDRO_PUMP
-        move MOVE_SHELL_SMASH
+        move MOVE_BLIZZARD
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_WAVE
         ballseal 0
     endparty
 
@@ -17145,7 +17145,7 @@ trainerdata 495, "Boy"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_CHIKORITA
+        pokemon SPECIES_CHESPIN
         ballseal 0
     endparty
 
@@ -17166,7 +17166,7 @@ trainerdata 496, "Boy"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_TORCHIC
+        pokemon SPECIES_FENNEKIN
         ballseal 0
     endparty
 
@@ -17187,7 +17187,7 @@ trainerdata 497, "Boy"
         ivs 0
         abilityslot 0
         level 5
-        pokemon SPECIES_SQUIRTLE
+        pokemon SPECIES_FROAKIE
         ballseal 0
     endparty
 
@@ -26198,12 +26198,12 @@ trainerdata 735, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_MEGANIUM
-        item ITEM_NONE
-        move MOVE_PETAL_DANCE
+        pokemon SPECIES_CHESNAUGHT
+        item ITEM_LEFTOVERS
+        move MOVE_SEED_BOMB
         move MOVE_BODY_SLAM
-        move MOVE_LIGHT_SCREEN
-        move MOVE_SYNTHESIS
+        move MOVE_SPIKY_SHIELD
+        move MOVE_DRAIN_PUNCH
         ballseal 0
 
         // mon 1
@@ -26248,12 +26248,12 @@ trainerdata 736, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_BLAZIKEN
-        item ITEM_BLAZIKENITE
-        move MOVE_FLARE_BLITZ
-        move MOVE_CLOSE_COMBAT
-        move MOVE_PROTECT
-        move MOVE_BRAVE_BIRD
+        pokemon SPECIES_DELPHOX
+        item ITEM_CHOICE_SCARF
+        move MOVE_FIRE_BLAST
+        move MOVE_PSYCHIC
+        move MOVE_SHADOW_BALL
+        move MOVE_MYSTICAL_FIRE
         ballseal 0
 
         // mon 1
@@ -26298,12 +26298,12 @@ trainerdata 737, "Silver"
         ivs 250
         abilityslot 0
         level 60
-        pokemon SPECIES_BLASTOISE
-        item ITEM_BLASTOISINITE
-        move MOVE_FLASH_CANNON
-        move MOVE_BLIZZARD
+        pokemon SPECIES_GRENINJA
+        item ITEM_LIFE_ORB
         move MOVE_HYDRO_PUMP
-        move MOVE_SHELL_SMASH
+        move MOVE_BLIZZARD
+        move MOVE_DARK_PULSE
+        move MOVE_SLUDGE_WAVE
         ballseal 0
 
         // mon 1
