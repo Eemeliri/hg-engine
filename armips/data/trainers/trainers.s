@@ -20521,6 +20521,7 @@ trainerdata 601, "Grunt"
         abilityslot 0
         level 25
         pokemon SPECIES_RHYHORN
+        ballseal 0
 
         // mon 1
         ivs 30
