@@ -99,7 +99,7 @@ arm9 set_starter_hidden_ability_hook 02096158 5
 #02241F10
 0012 btl_scr_cmd_6f_fury_cutter_damage_calc 02241F10 3
 #02242710
-0012 btl_scr_cmd_7c_beat_up_damage_calc 0800AE50 3
+0012 btl_scr_cmd_7c_beat_up_hit_count 0800AE50 3
 #0224324C
 0012 btl_scr_cmd_8c_lowkickdamagecalc 0800B98C 3
 #02245008
@@ -119,6 +119,7 @@ arm9 set_starter_hidden_ability_hook 02096158 5
 0012 BtlCmd_WeatherHPRecovery 02242380 3
 0012 BtlCmd_CalcWeatherBallParams 022432AC 3
 0012 BtlCmd_EndOfTurnWeatherEffect 02241B30 3
+0012 BtlCmd_TryProtection 022413B4 3
 0012 BtlCmd_TrySubstitute 022414F0 3
 0012 BtlCmd_RapidSpin 02242238 3
 0012 BtlCmd_CheckSubstitute 0224514C 3
@@ -187,6 +188,8 @@ arm9 ArceusBoxPokemonFormeChange 08071BD0 3
 #use item attribute change
 arm9 UseItemMonAttrChangeCheck_hook 0807C29C 0
 0094 UseItemMonAttrLoadDiffMessage_hook 021E5A6A 1
+0094 LoadIconChangeAnim_hook 021E5980 0
+0094 _EmitParticles 021E5BA0 1
 
 #ifdef ALLOW_SAVE_CHANGES
 
@@ -208,13 +211,13 @@ arm9 Bag_UnregisterItem 08078208 2
 arm9 Bag_GetItemPocket 02078240
 arm9 Pocket_GetItemSlotForAdd 020782DC
 arm9 Bag_GetItemSlotForAdd 02078340
-arm9 Bag_HasSpaceForItem 02078384
+arm9 Bag_HasSpaceForItem_hook 02078388 5
 arm9 Bag_AddItem 02078398
 arm9 Pocket_GetItemSlotForRemove 020783E0
 arm9 Bag_GetItemSlotForRemove 02078410
 arm9 Bag_TakeItem 02078434
 arm9 Pocket_TakeItem 02078480
-arm9 Bag_HasItem 020784B0
+arm9 Bag_HasItem_hook 020784B4 5
 
 # no more extended hook
 arm9 Bag_PocketNotEmpty 080784C4 2
@@ -330,7 +333,7 @@ arm9 Summary_Entry_Hook 0208D2C4 1
 #endif
 
 
-arm9 CanUseItemOnMonInParty 020902B8
+arm9 CanUseItemOnMonInParty_hook 020902BC 5
 #ifdef IMPLEMENT_LEVEL_CAP
 
 0012 ImplementLevelCap_hook 02245A28 3
@@ -510,3 +513,6 @@ arm9 DestroyHeap_hook 0201AA24 3
 
 # expand metronome move pool
 0012 load_max_move_num_metronome 022408AC 0
+
+arm9 PartyMenu_ItemUseFunc_LevelUpLearnMovesLoop_Case6_hook 02081E54 0
+arm9 PartyMenu_ItemUseFunc_ReuseItem_hook 0208138C 3

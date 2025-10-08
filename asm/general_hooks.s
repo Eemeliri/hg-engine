@@ -53,3 +53,71 @@ bx r3
 return_to_208FEFA:
 ldr r3, =0x0208FEFA | 1
 bx r3
+
+
+// still needed because function itself is not 0x1C bytes long
+.global Bag_HasSpaceForItem_hook
+Bag_HasSpaceForItem_hook:
+ldr r5, =Bag_HasSpaceForItem_return_address
+mov r6, lr
+str r6, [r5]
+pop {r5-r6}
+bl Bag_HasSpaceForItem
+ldr r1, =Bag_HasSpaceForItem_return_address
+ldr r1, [r1]
+mov pc, r1
+
+.pool
+
+Bag_HasSpaceForItem_return_address:
+.word 0
+
+
+// still needed because function itself is not 0x1C bytes long
+.global Bag_HasItem_hook
+Bag_HasItem_hook:
+ldr r5, =Bag_HasItem_return_address
+mov r6, lr
+str r6, [r5]
+pop {r5-r6}
+bl Bag_HasItem
+ldr r1, =Bag_HasItem_return_address
+ldr r1, [r1]
+mov pc, r1
+
+.pool
+
+Bag_HasItem_return_address:
+.word 0
+
+
+// still needed because function itself is not 0x1C bytes long
+.global CanUseItemOnMonInParty_hook
+CanUseItemOnMonInParty_hook:
+ldr r5, =CanUseItemOnMonInParty_return_address
+mov r6, lr
+str r6, [r5]
+pop {r5-r6}
+bl CanUseItemOnMonInParty
+ldr r1, =CanUseItemOnMonInParty_return_address
+ldr r1, [r1]
+mov pc, r1
+
+.pool
+
+CanUseItemOnMonInParty_return_address:
+.word 0
+
+.global PartyMenu_ItemUseFunc_LevelUpLearnMovesLoop_Case6_hook
+PartyMenu_ItemUseFunc_LevelUpLearnMovesLoop_Case6_hook:
+mov r0, r4
+bl PartyMenu_ItemUseFunc_LevelUpLearnMovesLoop_Case6
+ldr r1, =0x02081ea6 | 1
+bx r1
+
+.global PartyMenu_ItemUseFunc_ReuseItem_hook
+PartyMenu_ItemUseFunc_ReuseItem_hook:
+mov r0, r4
+bl PartyMenu_ItemUseFunc_ReuseItem
+ldr r3, =0x02081398 | 1
+bx r3

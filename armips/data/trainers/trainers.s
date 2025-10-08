@@ -873,7 +873,7 @@ trainerdata 23, "Larry"
     endparty
 
 trainerdata 24, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 1
     item ITEM_NONE
@@ -16943,7 +16943,6 @@ trainerdata 490, "Silver"
         abilityslot 0
         level 60
         pokemon SPECIES_DELPHOX
-        item ITEM_CHOICE_SCARF
         move MOVE_FIRE_BLAST
         move MOVE_PSYCHIC
         move MOVE_MYSTICAL_FIRE
@@ -17976,7 +17975,7 @@ trainerdata 517, "Tully"
     endparty
 
 trainerdata 518, "Liz"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
     item ITEM_NONE
@@ -17993,14 +17992,15 @@ trainerdata 518, "Liz"
         abilityslot 0
         level 65
         pokemon SPECIES_CAMERUPT
+        item ITEM_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 65
-        item ITEM_ALTARIANITE
         pokemon SPECIES_ALTARIA
+        item ITEM_ALTARIANITE
         ballseal 0
 
         // mon 2
@@ -18008,6 +18008,7 @@ trainerdata 518, "Liz"
         abilityslot 32
         level 65
         pokemon SPECIES_NIDOQUEEN
+        item ITEM_NONE
         ballseal 0
     endparty
 
@@ -18166,7 +18167,7 @@ trainerdata 522, "Tiffany"
     endparty
 
 trainerdata 523, "Anthony"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
     item ITEM_NONE
@@ -18183,14 +18184,15 @@ trainerdata 523, "Anthony"
         abilityslot 0
         level 50
         pokemon SPECIES_GOLEM
+        item ITEM_NONE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 52
-        item ITEM_STEELIXITE
         pokemon SPECIES_STEELIX
+        item ITEM_STEELIXITE
         ballseal 0
 
         // mon 2
@@ -18198,6 +18200,7 @@ trainerdata 523, "Anthony"
         abilityslot 32
         level 55
         pokemon SPECIES_MACHAMP
+        item ITEM_NONE
         ballseal 0
     endparty
 
@@ -20503,7 +20506,7 @@ trainerdata 600, "Selina"
 trainerdata 601, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -20519,7 +20522,7 @@ trainerdata 601, "Grunt"
         level 25
         pokemon SPECIES_RHYHORN
 
-        // mon 0
+        // mon 1
         ivs 30
         abilityslot 0
         level 25
