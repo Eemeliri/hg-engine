@@ -433,8 +433,11 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             movepower *= 2;
         }
         break;
+    case MOVE_TEMPER_FLARE:
     case MOVE_STOMPING_TANTRUM:
-        // TODO: Implement Stomping Tantrum
+        if (AttackingMon.hasMoveFailureLastTurn) {
+            movepower *= 2;
+        }
         break;
     case MOVE_WAKE_UP_SLAP:
         if (DefendingMon.condition & STATUS_SLEEP) {
@@ -456,10 +459,11 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
         }
         break;
     case MOVE_BOLT_BEAK:
-        // https://www.smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8433978
-        break;
     case MOVE_FISHIOUS_REND:
         // https://www.smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8433978
+        if (IsMovingAfterClient(sp, defender) == FALSE || sp->playerActions[sp->defence_client][3] == CONTROLLER_COMMAND_40) {
+            movepower *= 2;
+        }
         break;
     case MOVE_RISING_VOLTAGE:
         if ((terrainOverlayNumberOfTurnsLeft > 0) && (terrainOverlayType == ELECTRIC_TERRAIN)) {
